@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GST 212 | Logic, Philosophy & Human Existence Mastery</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="brand" id="nav-brand" role="button" tabindex="0">
+        <span class="brand-badge">GST 212</span>
+        <div class="brand-text">
+          <span class="brand-title">Philosophy & Logic</span>
+          <span class="brand-subtitle">Mastery Portal</span>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <button id="nav-bank-btn" class="nav-btn" title="Browse Question Bank">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/><path d="M6 10h10"/></svg>
+          <span class="nav-btn-text">Question Bank</span>
+          <span class="badge" id="total-q-badge">548</span>
+        </button>
+        <button id="nav-bookmarks-btn" class="nav-btn" title="View Bookmarks">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <span class="nav-btn-text">Bookmarks</span>
+          <span class="badge" id="bookmarks-count-badge">0</span>
+        </button>
+        <button id="theme-toggle-btn" class="theme-toggle" title="Toggle Dark/Light Mode" aria-label="Toggle Theme">
+          <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+          <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-content" id="app-container">
+
+    <!-- VIEW 1: HOME & SESSION CONFIGURATION -->
+    <section id="view-home" class="view-panel active">
+      <div class="hero-section">
+        <div class="hero-chip">Verified Exam Prep System</div>
+        <h1 class="hero-title">GST 212 Comprehensive Study & Exam Simulator</h1>
+        <p class="hero-desc">
+          Master <strong>548 verified questions</strong> extracted from all course materials, past question banks, and lecture notes. Featuring verified answer keys, detailed conceptual explainers, and three dedicated study modes.
+        </p>
+      </div>
+
+      <!-- Mode Cards Grid -->
+      <div class="modes-grid">
+        <!-- Study Mode Card -->
+        <div class="mode-card selected" data-mode="study" id="card-mode-study">
+          <div class="mode-card-header">
+            <div class="mode-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <span class="mode-pill">Instant Feedback</span>
+          </div>
+          <h2 class="mode-title">Study Mode</h2>
+          <p class="mode-text">
+            Get real-time feedback with green/red answers, orange correct highlights, real-time pass/fail counters, and concept explainers accessible before or after answering.
+          </p>
+          <div class="mode-features">
+            <span>✓ Real-time Validation</span>
+            <span>✓ Pre/Post Explainers</span>
+            <span>✓ Pass/Fail Counter</span>
+          </div>
+        </div>
+
+        <!-- Exam Mode Card -->
+        <div class="mode-card" data-mode="exam" id="card-mode-exam">
+          <div class="mode-card-header">
+            <div class="mode-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <span class="mode-pill">Exam Simulation</span>
+          </div>
+          <h2 class="mode-title">Exam Mode</h2>
+          <p class="mode-text">
+            Simulate actual CBT exam conditions with a question palette, optional countdown timer, and review flagging. Full score report & explainers revealed upon submission.
+          </p>
+          <div class="mode-features">
+            <span>✓ Optional Timer</span>
+            <span>✓ Question Palette</span>
+            <span>✓ In-depth Results Breakdown</span>
+          </div>
+        </div>
+
+        <!-- Flashcards Card -->
+        <div class="mode-card" data-mode="flashcards" id="card-mode-flashcards">
+          <div class="mode-card-header">
+            <div class="mode-icon-box">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <span class="mode-pill">Spaced Practice</span>
+          </div>
+          <h2 class="mode-title">Flashcards</h2>
+          <p class="mode-text">
+            Interactive 3D flip cards with question on the front and answer + concept explainer on the back. Track "Mastered" vs "Need Practice" cards until 100% completion.
+          </p>
+          <div class="mode-features">
+            <span>✓ 3D Flip Animation</span>
+            <span>✓ Mastery Tracking</span>
+            <span>✓ Keyboard Shortcuts</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Session Configuration Box -->
+      <div class="config-card">
+        <h3 class="config-heading">Session Configuration</h3>
+        
+        <div class="config-grid">
+          <!-- Topic / Module Selector -->
+          <div class="form-group">
+            <label for="module-select" class="form-label">Select Course Module / Topic:</label>
+            <select id="module-select" class="form-control">
+              <option value="all">All Topics (548 Questions)</option>
+              <option value="Introduction & Branches of Philosophy">1. Introduction & Branches of Philosophy (134 Qs)</option>
+              <option value="Categorical Propositions & Standard Forms">2. Categorical Propositions & Standard Forms (40 Qs)</option>
+              <option value="Categorical Syllogisms & Rules of Inference">3. Categorical Syllogisms & Rules of Inference (107 Qs)</option>
+              <option value="Deduction, Induction & Argument Analysis">4. Deduction, Induction & Scientific Reasoning (59 Qs)</option>
+              <option value="Fallacies in Reasoning (Formal & Informal)">5. Fallacies in Reasoning (Formal & Informal) (58 Qs)</option>
+              <option value="Symbolic Logic & Classical Laws of Thought">6. Symbolic Logic & Classical Laws of Thought (96 Qs)</option>
+              <option value="Epistemology, Ethics & Human Existence">7. Epistemology, Ethics & Human Existence (54 Qs)</option>
+            </select>
+          </div>
+
+          <!-- Question Count Selector -->
+          <div class="form-group">
+            <label class="form-label">Number of Questions:</label>
+            <div class="count-buttons-group" id="count-presets">
+              <button type="button" class="btn-chip" data-count="10">10</button>
+              <button type="button" class="btn-chip selected" data-count="25">25</button>
+              <button type="button" class="btn-chip" data-count="50">50</button>
+              <button type="button" class="btn-chip" data-count="100">100</button>
+              <button type="button" class="btn-chip" data-count="all">All</button>
+              <button type="button" class="btn-chip" data-count="custom">Custom</button>
+            </div>
+            <div id="custom-count-wrapper" class="custom-count-box hidden">
+              <input type="number" id="custom-count-input" min="1" max="548" placeholder="Enter count (1-548)" class="form-control custom-input">
+            </div>
+          </div>
+
+          <!-- Shuffle Toggle -->
+          <div class="form-group toggle-group">
+            <label class="toggle-label" for="shuffle-toggle">
+              <span>Randomize Question Order</span>
+              <span class="toggle-desc">Shuffle questions and multiple choice options</span>
+            </label>
+            <input type="checkbox" id="shuffle-toggle" class="switch" checked>
+          </div>
+
+          <!-- Exam Timer Setting (Visible when Exam mode selected) -->
+          <div class="form-group" id="timer-config-group">
+            <label class="form-label">Exam Timer (Optional):</label>
+            <div class="timer-buttons-group" id="timer-presets">
+              <button type="button" class="btn-chip" data-time="0">Untimed</button>
+              <button type="button" class="btn-chip" data-time="15">15 Mins</button>
+              <button type="button" class="btn-chip selected" data-time="30">30 Mins</button>
+              <button type="button" class="btn-chip" data-time="60">60 Mins</button>
+              <button type="button" class="btn-chip" data-time="custom">Custom</button>
+            </div>
+            <div id="custom-time-wrapper" class="custom-count-box hidden">
+              <input type="number" id="custom-time-input" min="1" max="180" placeholder="Minutes (1-180)" class="form-control custom-input">
+            </div>
+          </div>
+        </div>
+
+        <div class="config-footer">
+          <div class="pool-summary" id="pool-summary-text">Ready to launch with 25 questions</div>
+          <button id="start-session-btn" class="btn-primary-large">
+            <span>Start Session</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Past Exam History Card -->
+      <div class="history-card" id="history-section">
+        <div class="history-header">
+          <h3 class="history-title">Your Recent Exam History</h3>
+          <button id="clear-history-btn" class="btn-text">Clear History</button>
+        </div>
+        <div id="history-list-container" class="history-list">
+          <p class="empty-state">No exams completed yet. Take an exam to track your performance!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 2: STUDY MODE -->
+    <section id="view-study" class="view-panel">
+      <div class="quiz-header-bar">
+        <div class="quiz-status-left">
+          <button class="btn-icon" id="study-exit-btn" title="Exit to Home">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <div class="quiz-meta-info">
+            <span class="quiz-progress-text" id="study-progress-text">Question 1 of 25</span>
+            <span class="quiz-module-badge" id="study-module-badge">Logic & Philosophy</span>
+          </div>
+        </div>
+
+        <div class="quiz-score-counters">
+          <div class="score-pill pass" title="Correct Answers">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span id="study-pass-count">0</span> Pass
+          </div>
+          <div class="score-pill fail" title="Incorrect Answers">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            <span id="study-fail-count">0</span> Fail
+          </div>
+          <button class="bookmark-btn" id="study-bookmark-btn" title="Bookmark this Question">
+            <svg class="star-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Progress Line -->
+      <div class="progress-bar-track">
+        <div class="progress-bar-fill" id="study-progress-bar" style="width: 4%;"></div>
+      </div>
+
+      <!-- Question Content Area -->
+      <div class="question-container">
+        <div class="question-card">
+          <div class="question-header">
+            <span class="q-source-tag" id="study-source-tag">Source: 300_Gst_Questions</span>
+          </div>
+          <h2 class="question-prompt" id="study-question-prompt">Question text goes here...</h2>
+
+          <!-- Multiple Choice Options -->
+          <div class="options-list" id="study-options-list">
+            <!-- Options dynamically injected -->
+          </div>
+
+          <!-- Explainer Toggle & Drawer -->
+          <div class="explainer-wrapper">
+            <button id="study-explainer-toggle" class="explainer-toggle-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+              <span>Topic Explainer & Concept Breakdown</span>
+              <svg class="chevron-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+            
+            <div id="study-explainer-drawer" class="explainer-drawer">
+              <div class="explainer-content" id="study-explainer-text">
+                <!-- Explainer text injected here -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation Controls -->
+        <div class="quiz-nav-footer">
+          <button id="study-prev-btn" class="btn-secondary" disabled>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+            <span>Previous</span>
+          </button>
+          
+          <div class="center-actions">
+            <button id="study-finish-btn" class="btn-secondary">Finish Study</button>
+          </div>
+
+          <button id="study-next-btn" class="btn-primary">
+            <span>Next Question</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 3: EXAM MODE -->
+    <section id="view-exam" class="view-panel">
+      <div class="quiz-header-bar exam-header">
+        <div class="quiz-status-left">
+          <button class="btn-icon" id="exam-exit-btn" title="Exit Exam">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <div class="quiz-meta-info">
+            <span class="quiz-progress-text" id="exam-progress-text">Exam Question 1 of 50</span>
+            <span class="quiz-module-badge" id="exam-module-badge">CBT Examination</span>
+          </div>
+        </div>
+
+        <!-- Exam Timer & Actions -->
+        <div class="exam-header-right">
+          <div id="exam-timer-box" class="timer-box">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span id="exam-timer-display">30:00</span>
+          </div>
+
+          <button id="exam-flag-btn" class="flag-btn" title="Flag this question for review">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+            <span>Flag</span>
+          </button>
+
+          <button id="exam-palette-toggle" class="btn-secondary btn-sm" title="Toggle Question Palette">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg>
+            <span>Grid (<span id="answered-count-mini">0</span>/<span id="total-count-mini">50</span>)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Exam Workspace with Question + Palette Grid -->
+      <div class="exam-workspace">
+        <!-- Main Exam Question Area -->
+        <div class="exam-main-area">
+          <div class="question-card exam-card">
+            <div class="question-header">
+              <span class="q-source-tag" id="exam-source-tag">CBT Question</span>
+              <span class="flagged-indicator hidden" id="exam-flagged-indicator">🚩 Flagged for Review</span>
+            </div>
+            <h2 class="question-prompt" id="exam-question-prompt">Exam question text goes here...</h2>
+
+            <!-- Options List (Neutral selection, no instant feedback) -->
+            <div class="options-list exam-options" id="exam-options-list">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+          <!-- Exam Navigation Footer -->
+          <div class="quiz-nav-footer">
+            <button id="exam-prev-btn" class="btn-secondary" disabled>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+              <span>Previous</span>
+            </button>
+
+            <button id="exam-submit-btn" class="btn-accent">
+              <span>Submit Examination</span>
+            </button>
+
+            <button id="exam-next-btn" class="btn-primary">
+              <span>Next</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Question Navigation Palette Sidebar -->
+        <aside class="exam-palette-sidebar" id="exam-palette-sidebar">
+          <div class="palette-header">
+            <h4>Question Navigator</h4>
+            <div class="palette-legend">
+              <span class="legend-item"><span class="dot answered"></span> Answered</span>
+              <span class="legend-item"><span class="dot current"></span> Current</span>
+              <span class="legend-item"><span class="dot flagged"></span> Flagged</span>
+              <span class="legend-item"><span class="dot unanswered"></span> Unanswered</span>
+            </div>
+          </div>
+          <div class="palette-grid" id="exam-palette-grid">
+            <!-- Question buttons injected dynamically -->
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- VIEW 4: EXAM RESULTS & REVIEW -->
+    <section id="view-results" class="view-panel">
+      <div class="results-card">
+        <div class="results-hero">
+          <div class="grade-badge" id="results-grade-badge">A</div>
+          <h2 class="results-title">Examination Completed</h2>
+          <p class="results-subtitle" id="results-score-summary">You scored 45 out of 50 (90%)</p>
+
+          <div class="results-metrics-grid">
+            <div class="metric-box">
+              <span class="metric-label">Accuracy</span>
+              <span class="metric-value" id="res-accuracy">90%</span>
+            </div>
+            <div class="metric-box">
+              <span class="metric-label">Correct</span>
+              <span class="metric-value text-green" id="res-correct">45</span>
+            </div>
+            <div class="metric-box">
+              <span class="metric-label">Incorrect</span>
+              <span class="metric-value text-red" id="res-incorrect">5</span>
+            </div>
+            <div class="metric-box">
+              <span class="metric-label">Time Spent</span>
+              <span class="metric-value" id="res-time">18m 24s</span>
+            </div>
+          </div>
+
+          <div class="results-actions">
+            <button id="res-retake-missed-btn" class="btn-secondary">Retake Missed Questions</button>
+            <button id="res-retake-all-btn" class="btn-secondary">Retake Entire Exam</button>
+            <button id="res-home-btn" class="btn-primary">Return to Home</button>
+          </div>
+        </div>
+
+        <!-- Detailed Question Review Section -->
+        <div class="review-section">
+          <div class="review-filter-bar">
+            <h3>Detailed Review & Explainers</h3>
+            <div class="filter-chips" id="review-filter-chips">
+              <button class="btn-chip selected" data-filter="all">All (<span id="rev-count-all">50</span>)</button>
+              <button class="btn-chip" data-filter="wrong">Incorrect Only (<span id="rev-count-wrong">5</span>)</button>
+              <button class="btn-chip" data-filter="correct">Correct Only (<span id="rev-count-correct">45</span>)</button>
+              <button class="btn-chip" data-filter="flagged">Flagged (<span id="rev-count-flagged">0</span>)</button>
+            </div>
+          </div>
+
+          <div class="review-questions-list" id="results-review-list">
+            <!-- Dynamically populated review questions with explainers -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 5: FLASHCARDS MODE -->
+    <section id="view-flashcards" class="view-panel">
+      <div class="quiz-header-bar">
+        <div class="quiz-status-left">
+          <button class="btn-icon" id="fc-exit-btn" title="Exit Flashcards">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <div class="quiz-meta-info">
+            <span class="quiz-progress-text" id="fc-progress-text">Card 1 of 50</span>
+            <span class="quiz-module-badge" id="fc-module-badge">Logic & Philosophy</span>
+          </div>
+        </div>
+
+        <div class="fc-stats">
+          <span class="fc-stat-chip mastered">✓ Mastered: <strong id="fc-mastered-count">0</strong></span>
+          <span class="fc-stat-chip learning">⟳ Learning: <strong id="fc-learning-count">50</strong></span>
+        </div>
+      </div>
+
+      <div class="progress-bar-track">
+        <div class="progress-bar-fill" id="fc-progress-bar" style="width: 2%;"></div>
+      </div>
+
+      <!-- 3D Flip Flashcard Area -->
+      <div class="flashcard-stage">
+        <div class="flashcard-scene" id="flashcard-scene">
+          <div class="flashcard-card" id="flashcard-element">
+            <!-- Front of Card -->
+            <div class="flashcard-face flashcard-front">
+              <div class="fc-header">
+                <span class="fc-chip">QUESTION</span>
+                <span class="fc-topic" id="fc-front-topic">Topic</span>
+              </div>
+              <div class="fc-body">
+                <h3 class="fc-question" id="fc-front-question">Question text appears here...</h3>
+              </div>
+              <div class="fc-footer">
+                <span class="fc-hint">Click card or press <strong>Spacebar</strong> to flip</span>
+              </div>
+            </div>
+
+            <!-- Back of Card -->
+            <div class="flashcard-face flashcard-back">
+              <div class="fc-header">
+                <span class="fc-chip correct-chip">CORRECT ANSWER</span>
+                <span class="fc-source" id="fc-back-source">Source</span>
+              </div>
+              <div class="fc-body">
+                <div class="fc-answer-box">
+                  <span class="fc-ans-letter" id="fc-back-letter">B</span>
+                  <span class="fc-ans-text" id="fc-back-answer">Answer text</span>
+                </div>
+                <div class="fc-explainer-box">
+                  <span class="fc-explainer-label">Concept Explainer:</span>
+                  <p class="fc-explainer-text" id="fc-back-explainer">Explainer text...</p>
+                </div>
+              </div>
+              <div class="fc-footer">
+                <span class="fc-hint">Click card or press <strong>Spacebar</strong> to flip back</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mastery Action Controls -->
+        <div class="fc-actions-toolbar">
+          <button id="fc-hard-btn" class="fc-btn fc-btn-hard" title="Press 1 on keyboard">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            <span>Need Practice (1)</span>
+          </button>
+
+          <button id="fc-flip-btn" class="fc-btn fc-btn-flip">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M16 21h5v-5"/></svg>
+            <span>Flip Card (Space)</span>
+          </button>
+
+          <button id="fc-easy-btn" class="fc-btn fc-btn-easy" title="Press 2 on keyboard">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Mastered (2)</span>
+          </button>
+        </div>
+
+        <!-- Navigation Bar -->
+        <div class="fc-navigation">
+          <button id="fc-prev-btn" class="btn-secondary" title="Previous Card (Left Arrow)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+            <span>Previous (←)</span>
+          </button>
+
+          <div class="fc-deck-actions">
+            <button id="fc-shuffle-btn" class="btn-secondary" title="Shuffle Deck">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.7-1.1 2-1.7 3.3-1.7H22"/><path d="m18 2 4 4-4 4"/><path d="M2 6h1.9c1.5 0 2.9.9 3.6 2.2"/><path d="M22 18h-5.9c-1.3 0-2.5-.7-3.3-1.8l-.5-.8"/><path d="m18 14 4 4-4 4"/></svg>
+              <span>Shuffle</span>
+            </button>
+            <button id="fc-reset-btn" class="btn-secondary" title="Reset Mastery">
+              <span>Reset Deck</span>
+            </button>
+          </div>
+
+          <button id="fc-next-btn" class="btn-primary" title="Next Card (Right Arrow)">
+            <span>Next (→)</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 6: QUESTION BANK & BOOKMARK BROWSER -->
+    <section id="view-bank" class="view-panel">
+      <div class="bank-header">
+        <div class="bank-title-group">
+          <button class="btn-icon" id="bank-exit-btn" title="Exit to Home">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <div>
+            <h2 class="bank-title">GST 212 Question Bank Repository</h2>
+            <p class="bank-subtitle">Search, filter, and review all 548 questions with verified answers and explainers.</p>
+          </div>
+        </div>
+
+        <div class="bank-controls">
+          <!-- Live Search Input -->
+          <div class="search-input-box">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="bank-search-input" placeholder="Search keywords (e.g. fallacy, Socrates, modus ponens)..." class="search-field">
+            <button id="clear-search-btn" class="clear-btn hidden">&times;</button>
+          </div>
+
+          <!-- Filter Module Dropdown -->
+          <select id="bank-module-filter" class="form-control bank-select">
+            <option value="all">All Modules (548)</option>
+            <option value="Introduction & Branches of Philosophy">1. Introduction & Branches of Philosophy</option>
+            <option value="Categorical Propositions & Standard Forms">2. Categorical Propositions & Standard Forms</option>
+            <option value="Categorical Syllogisms & Rules of Inference">3. Categorical Syllogisms & Rules of Inference</option>
+            <option value="Deduction, Induction & Argument Analysis">4. Deduction, Induction & Scientific Reasoning</option>
+            <option value="Fallacies in Reasoning (Formal & Informal)">5. Fallacies in Reasoning (Formal & Informal)</option>
+            <option value="Symbolic Logic & Classical Laws of Thought">6. Symbolic Logic & Classical Laws of Thought</option>
+            <option value="Epistemology, Ethics & Human Existence">7. Epistemology, Ethics & Human Existence</option>
+          </select>
+
+          <!-- Bookmarks Only Toggle -->
+          <button id="bank-bookmarks-filter-btn" class="btn-chip">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span>Bookmarked Only</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="bank-stats-bar">
+        <span>Showing <strong id="bank-matched-count">548</strong> of 548 questions</span>
+      </div>
+
+      <div class="bank-list" id="bank-questions-list">
+        <!-- Rendered question cards -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Submit Confirmation Modal for Exam Mode -->
+  <div id="submit-modal" class="modal-overlay hidden">
+    <div class="modal-box">
+      <h3 class="modal-title">Submit Examination?</h3>
+      <p class="modal-message" id="submit-modal-msg">
+        You have answered 45 of 50 questions (5 unanswered). Are you sure you want to submit and view your score?
+      </p>
+      <div class="modal-actions">
+        <button id="modal-cancel-btn" class="btn-secondary">Continue Exam</button>
+        <button id="modal-confirm-btn" class="btn-accent">Yes, Submit Exam</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load Extracted Question Data & App Engine -->
+  <script src="questions_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
