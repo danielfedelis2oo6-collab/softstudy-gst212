@@ -1,5 +1,5 @@
 /* GST 212: Philosophy, Logic, and Human Existence - Verified Master Question Bank */
-// Total Verified Questions: 548
+// Total Verified Questions: 547
 
 const GST_QUESTIONS = [
   {
@@ -3094,21 +3094,21 @@ const GST_QUESTIONS = [
     "source": "300_Gst_Questions (Q194)",
     "question": "The logical operator for NEGATION is commonly symbolized by:",
     "options": {
-      "A": "\\wedge",
-      "B": "\\vee",
-      "C": "\\sim (or \\neg)",
-      "D": "\\rightarrow"
+      "A": "∧",
+      "B": "∨",
+      "C": "~ (or ¬)",
+      "D": "→"
     },
     "correct_option": "C",
-    "answer_text": "\\sim (or \\neg)",
+    "answer_text": "~ (or ¬)",
     "topic": "Symbolic Logic & Truth Tables",
     "module": "Symbolic Logic & Classical Laws of Thought",
-    "explainer": "GST 212 Concept Explainer (Symbolic Logic & Truth Tables):\n• Correct Answer: \\sim (or \\neg)\n• Concept Summary: In the study of logic and philosophy, '\\sim (or \\neg)' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Symbolic Logic & Truth Tables ensures solid grasp of this foundational concept.",
+    "explainer": "GST 212 Concept Explainer (Symbolic Logic & Truth Tables):\n• Correct Answer: ~ (or ¬)\n• Concept Summary: In the study of logic and philosophy, '~ (or ¬)' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Symbolic Logic & Truth Tables ensures solid grasp of this foundational concept.",
     "id": 194
   },
   {
     "source": "300_Gst_Questions (Q195)",
-    "question": "If proposition P is TRUE, what is the truth- value of \\sim P?",
+    "question": "If proposition P is TRUE, what is the truth- value of ~ P?",
     "options": {
       "A": "True",
       "B": "False",
@@ -3124,7 +3124,7 @@ const GST_QUESTIONS = [
   },
   {
     "source": "300_Gst_Questions (Q196)",
-    "question": "If proposition P is FALSE, what is the truth- value of \\sim P?",
+    "question": "If proposition P is FALSE, what is the truth- value of ~ P?",
     "options": {
       "A": "True",
       "B": "False",
@@ -3142,21 +3142,21 @@ const GST_QUESTIONS = [
     "source": "300_Gst_Questions (Q197)",
     "question": "The logical operator for CONJUNCTION (\"and\") is symbolized by:",
     "options": {
-      "A": "\\vee",
-      "B": "\\cdot or \\wedge",
-      "C": "\\supset",
-      "D": "\\sim"
+      "A": "∨",
+      "B": "• or ∧",
+      "C": "⊃",
+      "D": "~"
     },
     "correct_option": "B",
-    "answer_text": "\\cdot or \\wedge",
+    "answer_text": "• or ∧",
     "topic": "Symbolic Logic & Truth Tables",
     "module": "Symbolic Logic & Classical Laws of Thought",
-    "explainer": "GST 212 Concept Explainer (Symbolic Logic & Truth Tables):\n• Correct Answer: \\cdot or \\wedge\n• Concept Summary: In the study of logic and philosophy, '\\cdot or \\wedge' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Symbolic Logic & Truth Tables ensures solid grasp of this foundational concept.",
+    "explainer": "GST 212 Concept Explainer (Symbolic Logic & Truth Tables):\n• Correct Answer: • or ∧\n• Concept Summary: In the study of logic and philosophy, '• or ∧' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Symbolic Logic & Truth Tables ensures solid grasp of this foundational concept.",
     "id": 197
   },
   {
     "source": "300_Gst_Questions (Q198)",
-    "question": "A conjunction (P \\wedge Q) is TRUE if and only if:",
+    "question": "A conjunction (P ∧ Q) is TRUE if and only if:",
     "options": {
       "A": "At least one conjunct is true",
       "B": "Both conjuncts P and Q are TRUE",
@@ -3172,7 +3172,7 @@ const GST_QUESTIONS = [
   },
   {
     "source": "300_Gst_Questions (Q199)",
-    "question": "If P is True and Q is False, the truth-value of P \\wedge Q is:",
+    "question": "If P is True and Q is False, the truth-value of P ∧ Q is:",
     "options": {
       "A": "True",
       "B": "False",
@@ -3190,21 +3190,21 @@ const GST_QUESTIONS = [
     "source": "300_Gst_Questions (Q200)",
     "question": "The logical operator for INCLUSIVE DISJUNCTION (\"or\") is symbolized by:",
     "options": {
-      "A": "\\vee",
-      "B": "\\wedge",
-      "C": "\\sim",
-      "D": "\\equiv"
+      "A": "∨",
+      "B": "∧",
+      "C": "~",
+      "D": "≡"
     },
     "correct_option": "A",
-    "answer_text": "\\vee",
+    "answer_text": "∨",
     "topic": "Symbolic Logic & Truth Tables",
     "module": "Symbolic Logic & Classical Laws of Thought",
-    "explainer": "GST 212 Concept Explainer (Symbolic Logic & Truth Tables):\n• Correct Answer: \\vee\n• Concept Summary: In the study of logic and philosophy, '\\vee' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Symbolic Logic & Truth Tables ensures solid grasp of this foundational concept.",
+    "explainer": "GST 212 Concept Explainer (Symbolic Logic & Truth Tables):\n• Correct Answer: ∨\n• Concept Summary: In the study of logic and philosophy, '∨' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Symbolic Logic & Truth Tables ensures solid grasp of this foundational concept.",
     "id": 200
   },
   {
     "source": "300_Gst_Questions (Q201)",
-    "question": "An inclusive disjunction (P \\vee Q) is FALSE if and only if:",
+    "question": "An inclusive disjunction (P ∨ Q) is FALSE if and only if:",
     "options": {
       "A": "Both disjuncts P and Q are FALSE",
       "B": "Both disjuncts are true",
@@ -3220,7 +3220,7 @@ const GST_QUESTIONS = [
   },
   {
     "source": "300_Gst_Questions (Q202)",
-    "question": "If P is False and Q is True, the truth-value of P \\vee Q is:",
+    "question": "If P is False and Q is True, the truth-value of P ∨ Q is:",
     "options": {
       "A": "True",
       "B": "False",
@@ -3254,21 +3254,21 @@ const GST_QUESTIONS = [
     "source": "300_Gst_Questions (Q204)",
     "question": "The logical operator for CONDITIONAL / IMPLICATION (\"if... then...\") is symbolized by:",
     "options": {
-      "A": "\\rightarrow or \\supset",
-      "B": "\\vee",
-      "C": "\\wedge",
-      "D": "\\sim"
+      "A": "→ or ⊃",
+      "B": "∨",
+      "C": "∧",
+      "D": "~"
     },
     "correct_option": "A",
-    "answer_text": "\\rightarrow or \\supset",
+    "answer_text": "→ or ⊃",
     "topic": "Symbolic Logic & Truth Tables",
     "module": "Symbolic Logic & Classical Laws of Thought",
-    "explainer": "GST 212 Concept Explainer (Symbolic Logic & Truth Tables):\n• Correct Answer: \\rightarrow or \\supset\n• Concept Summary: In the study of logic and philosophy, '\\rightarrow or \\supset' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Symbolic Logic & Truth Tables ensures solid grasp of this foundational concept.",
+    "explainer": "GST 212 Concept Explainer (Symbolic Logic & Truth Tables):\n• Correct Answer: → or ⊃\n• Concept Summary: In the study of logic and philosophy, '→ or ⊃' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Symbolic Logic & Truth Tables ensures solid grasp of this foundational concept.",
     "id": 204
   },
   {
     "source": "300_Gst_Questions (Q205)",
-    "question": "In the conditional statement P \\rightarrow Q, the proposition P preceding the arrow is called the:",
+    "question": "In the conditional statement P → Q, the proposition P preceding the arrow is called the:",
     "options": {
       "A": "Consequent",
       "B": "Antecedent",
@@ -3284,7 +3284,7 @@ const GST_QUESTIONS = [
   },
   {
     "source": "300_Gst_Questions (Q206)",
-    "question": "In the conditional statement P \\rightarrow Q, the proposition Q following the arrow is called the:",
+    "question": "In the conditional statement P → Q, the proposition Q following the arrow is called the:",
     "options": {
       "A": "Antecedent",
       "B": "Consequent",
@@ -3300,7 +3300,7 @@ const GST_QUESTIONS = [
   },
   {
     "source": "300_Gst_Questions (Q207)",
-    "question": "A conditional statement P \\rightarrow Q is FALSE in which specific truth-value combination?",
+    "question": "A conditional statement P → Q is FALSE in which specific truth-value combination?",
     "options": {
       "A": "P is True and Q is True",
       "B": "P is True and Q is False",
@@ -3316,7 +3316,7 @@ const GST_QUESTIONS = [
   },
   {
     "source": "300_Gst_Questions (Q208)",
-    "question": "If the antecedent P is FALSE, what is the truth-value of the conditional P \\rightarrow Q?",
+    "question": "If the antecedent P is FALSE, what is the truth-value of the conditional P → Q?",
     "options": {
       "A": "False",
       "B": "True (vacuously true)",
@@ -3334,21 +3334,21 @@ const GST_QUESTIONS = [
     "source": "300_Gst_Questions (Q209)",
     "question": "The logical operator for BICONDITIONAL (\"if and only if\") is symbolized by:",
     "options": {
-      "A": "\\equiv or \\leftrightarrow",
-      "B": "\\vee",
-      "C": "\\supset",
-      "D": "\\sim"
+      "A": "≡ or ↔",
+      "B": "∨",
+      "C": "⊃",
+      "D": "~"
     },
     "correct_option": "A",
-    "answer_text": "\\equiv or \\leftrightarrow",
+    "answer_text": "≡ or ↔",
     "topic": "Symbolic Logic & Truth Tables",
     "module": "Symbolic Logic & Classical Laws of Thought",
-    "explainer": "GST 212 Concept Explainer (Symbolic Logic & Truth Tables):\n• Correct Answer: \\equiv or \\leftrightarrow\n• Concept Summary: In the study of logic and philosophy, '\\equiv or \\leftrightarrow' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Symbolic Logic & Truth Tables ensures solid grasp of this foundational concept.",
+    "explainer": "GST 212 Concept Explainer (Symbolic Logic & Truth Tables):\n• Correct Answer: ≡ or ↔\n• Concept Summary: In the study of logic and philosophy, '≡ or ↔' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Symbolic Logic & Truth Tables ensures solid grasp of this foundational concept.",
     "id": 209
   },
   {
     "source": "300_Gst_Questions (Q210)",
-    "question": "A biconditional statement P \\leftrightarrow Q is TRUE if and only if:",
+    "question": "A biconditional statement P ↔ Q is TRUE if and only if:",
     "options": {
       "A": "Both component statements have the SAME truth-value (both True or both False)",
       "B": "P is True and Q is False",
@@ -3492,7 +3492,7 @@ const GST_QUESTIONS = [
   },
   {
     "source": "300_Gst_Questions (Q219)",
-    "question": "Evaluate the truth-value of \\sim(P \\wedge Q) when P is True and Q is True:",
+    "question": "Evaluate the truth-value of ~(P ∧ Q) when P is True and Q is True:",
     "options": {
       "A": "True",
       "B": "False",
@@ -3508,7 +3508,7 @@ const GST_QUESTIONS = [
   },
   {
     "source": "300_Gst_Questions (Q220)",
-    "question": "Evaluate the truth-value of \\sim P \\vee Q when P is True and Q is False:",
+    "question": "Evaluate the truth-value of ~ P ∨ Q when P is True and Q is False:",
     "options": {
       "A": "True",
       "B": "False",
@@ -3523,36 +3523,20 @@ const GST_QUESTIONS = [
     "id": 220
   },
   {
-    "source": "300_Gst_Questions (Q221)",
-    "question": "According to De Morgan's Law, \\sim(P \\wedge Q) is logically equivalent to:",
+    "source": "300_Gst_Questions (Q221), 300_Gst_Questions (Q222)",
+    "question": "According to De Morgan's Law, ~(P ∧ Q) is logically equivalent to:",
     "options": {
-      "A": "\\sim P \\wedge \\sim Q",
-      "B": "\\sim P \\vee \\sim Q",
-      "C": "P \\vee Q",
-      "D": "P \\rightarrow Q"
+      "A": "~ P ∧ ~ Q",
+      "B": "~ P ∨ ~ Q",
+      "C": "P ∨ Q",
+      "D": "P → Q"
     },
     "correct_option": "B",
-    "answer_text": "\\sim P \\vee \\sim Q",
+    "answer_text": "~ P ∨ ~ Q",
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
-    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: \\sim P \\vee \\sim Q\n• Concept Summary: In the study of logic and philosophy, '\\sim P \\vee \\sim Q' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
+    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: ~ P ∨ ~ Q\n• Concept Summary: In the study of logic and philosophy, '~ P ∨ ~ Q' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
     "id": 221
-  },
-  {
-    "source": "300_Gst_Questions (Q222)",
-    "question": "According to De Morgan's Law, \\sim(P \\vee Q) is logically equivalent to:",
-    "options": {
-      "A": "\\sim P \\wedge \\sim Q",
-      "B": "\\sim P \\vee \\sim Q",
-      "C": "P \\wedge Q",
-      "D": "\\sim P \\rightarrow Q"
-    },
-    "correct_option": "A",
-    "answer_text": "\\sim P \\wedge \\sim Q",
-    "topic": "Rules of Inference in Symbolic Logic",
-    "module": "Symbolic Logic & Classical Laws of Thought",
-    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: \\sim P \\wedge \\sim Q\n• Concept Summary: In the study of logic and philosophy, '\\sim P \\wedge \\sim Q' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 222
   },
   {
     "source": "300_Gst_Questions (Q223)",
@@ -3568,43 +3552,43 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: It is not raining or it is not cold\n• Concept Summary: In the study of logic and philosophy, 'It is not raining or it is not cold' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 223
+    "id": 222
   },
   {
     "source": "300_Gst_Questions (Q224)",
-    "question": "The logical principle of Double Negation states that \\sim(\\sim P) is logically equivalent to:",
+    "question": "The logical principle of Double Negation states that ~(~ P) is logically equivalent to:",
     "options": {
-      "A": "\\sim P",
+      "A": "~ P",
       "B": "P",
-      "C": "P \\vee \\sim P",
-      "D": "P \\wedge \\sim P"
+      "C": "P ∨ ~ P",
+      "D": "P ∧ ~ P"
     },
     "correct_option": "B",
     "answer_text": "P",
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: P\n• Concept Summary: In the study of logic and philosophy, 'P' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 224
+    "id": 223
   },
   {
     "source": "300_Gst_Questions (Q225)",
-    "question": "The conditional statement P \\rightarrow Q is logically equivalent to its contrapositive, which is:",
+    "question": "The conditional statement P → Q is logically equivalent to its contrapositive, which is:",
     "options": {
-      "A": "Q \\rightarrow P",
-      "B": "\\sim P \\rightarrow \\sim Q",
-      "C": "\\sim Q \\rightarrow \\sim P",
-      "D": "P \\wedge \\sim Q"
+      "A": "Q → P",
+      "B": "~ P → ~ Q",
+      "C": "~ Q → ~ P",
+      "D": "P ∧ ~ Q"
     },
     "correct_option": "C",
-    "answer_text": "\\sim Q \\rightarrow \\sim P",
+    "answer_text": "~ Q → ~ P",
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
-    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: \\sim Q \\rightarrow \\sim P\n• Concept Summary: In the study of logic and philosophy, '\\sim Q \\rightarrow \\sim P' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 225
+    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: ~ Q → ~ P\n• Concept Summary: In the study of logic and philosophy, '~ Q → ~ P' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
+    "id": 224
   },
   {
     "source": "300_Gst_Questions (Q226)",
-    "question": "The expression Q \\rightarrow P is called the _____ of P \\rightarrow Q:",
+    "question": "The expression Q → P is called the _____ of P → Q:",
     "options": {
       "A": "Converse",
       "B": "Inverse",
@@ -3616,11 +3600,11 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: Converse\n• Concept Summary: In the study of logic and philosophy, 'Converse' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 226
+    "id": 225
   },
   {
     "source": "300_Gst_Questions (Q227)",
-    "question": "The expression \\sim P \\rightarrow \\sim Q is called the _____ of P \\rightarrow Q:",
+    "question": "The expression ~ P → ~ Q is called the _____ of P → Q:",
     "options": {
       "A": "Converse",
       "B": "Inverse",
@@ -3632,11 +3616,11 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: Inverse\n• Concept Summary: In the study of logic and philosophy, 'Inverse' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 227
+    "id": 226
   },
   {
     "source": "300_Gst_Questions (Q228)",
-    "question": "Is a conditional statement P \\rightarrow Q logically equivalent to its converse Q \\rightarrow P?",
+    "question": "Is a conditional statement P → Q logically equivalent to its converse Q → P?",
     "options": {
       "A": "Yes, always",
       "B": "No, confusing them commits a formal fallacy",
@@ -3648,7 +3632,7 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: No, confusing them commits a formal fallacy\n• Concept Summary: In the study of logic and philosophy, 'No, confusing them commits a formal fallacy' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 228
+    "id": 227
   },
   {
     "source": "300_Gst_Questions (Q229)",
@@ -3664,7 +3648,7 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: Truth function\n• Concept Summary: In the study of logic and philosophy, 'Truth function' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 229
+    "id": 228
   },
   {
     "source": "300_Gst_Questions (Q230)",
@@ -3680,151 +3664,151 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: Their columns have identical truth values in every corresponding row\n• Concept Summary: In the study of logic and philosophy, 'Their columns have identical truth values in every corresponding row' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 230
+    "id": 229
   },
   {
     "source": "300_Gst_Questions (Q231)",
     "question": "The rule of inference MODUS PONENS (Method of Affirming) has the logical form:",
     "options": {
-      "A": "P \\rightarrow Q; P; Therefore, Q",
-      "B": "P \\rightarrow Q; \\sim Q; Therefore, \\sim P",
-      "C": "P \\rightarrow Q; Q \\rightarrow R; Therefore, P \\rightarrow R",
-      "D": "P \\vee Q; \\sim P; Therefore, Q"
+      "A": "P → Q; P; Therefore, Q",
+      "B": "P → Q; ~ Q; Therefore, ~ P",
+      "C": "P → Q; Q → R; Therefore, P → R",
+      "D": "P ∨ Q; ~ P; Therefore, Q"
     },
     "correct_option": "A",
-    "answer_text": "P \\rightarrow Q; P; Therefore, Q",
+    "answer_text": "P → Q; P; Therefore, Q",
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Rule of Inference - Modus Ponens (Affirming the Antecedent):\n• Form: If P then Q; P; Therefore Q (P → Q, P ⊢ Q).\n• Principle: When a conditional statement is accepted and its antecedent (condition) is affirmed as true, the consequent (result) necessarily follows.\n• Note: Do not confuse with the formal fallacy of 'Affirming the Consequent' (If P then Q; Q; Therefore P — which is invalid).",
-    "id": 231
+    "id": 230
   },
   {
     "source": "300_Gst_Questions (Q232)",
     "question": "The rule of inference MODUS TOLLENS (Method of Denying) has the logical form:",
     "options": {
-      "A": "P \\rightarrow Q; P; Therefore, Q",
-      "B": "P \\rightarrow Q; \\sim Q; Therefore, \\sim P",
-      "C": "P \\vee Q; \\sim P; Therefore, Q",
-      "D": "P \\rightarrow Q; Q; Therefore, P"
+      "A": "P → Q; P; Therefore, Q",
+      "B": "P → Q; ~ Q; Therefore, ~ P",
+      "C": "P ∨ Q; ~ P; Therefore, Q",
+      "D": "P → Q; Q; Therefore, P"
     },
     "correct_option": "B",
-    "answer_text": "P \\rightarrow Q; \\sim Q; Therefore, \\sim P",
+    "answer_text": "P → Q; ~ Q; Therefore, ~ P",
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Rule of Inference - Modus Tollens (Denying the Consequent):\n• Form: If P then Q; Not Q; Therefore Not P (P → Q, ~Q ⊢ ~P).\n• Principle: If a conditional statement holds true but the consequent is denied/false, the antecedent must also be false.\n• Note: Do not confuse with the formal fallacy of 'Denying the Antecedent' (If P then Q; Not P; Therefore Not Q — which is invalid).",
-    "id": 232
+    "id": 231
   },
   {
     "source": "300_Gst_Questions (Q233)",
     "question": "The rule of inference HYPOTHETICAL SYLLOGISM has the logical form:",
     "options": {
-      "A": "P \\rightarrow Q; Q \\rightarrow R; Therefore, P \\rightarrow R",
-      "B": "P \\vee Q; \\sim P; Therefore, Q",
-      "C": "P \\rightarrow Q; P; Therefore, Q",
-      "D": "P \\wedge Q; Therefore, P"
+      "A": "P → Q; Q → R; Therefore, P → R",
+      "B": "P ∨ Q; ~ P; Therefore, Q",
+      "C": "P → Q; P; Therefore, Q",
+      "D": "P ∧ Q; Therefore, P"
     },
     "correct_option": "A",
-    "answer_text": "P \\rightarrow Q; Q \\rightarrow R; Therefore, P \\rightarrow R",
+    "answer_text": "P → Q; Q → R; Therefore, P → R",
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Rule of Inference - Hypothetical Syllogism (Chain Argument):\n• Form: If P then Q; If Q then R; Therefore If P then R (P → Q, Q → R ⊢ P → R).\n• Principle: Transitive property of conditional statements, allowing conditional chaining.",
-    "id": 233
+    "id": 232
   },
   {
     "source": "300_Gst_Questions (Q234)",
     "question": "The rule of inference DISJUNCTIVE SYLLOGISM has the logical form:",
     "options": {
-      "A": "P \\rightarrow Q; P; Therefore, Q",
-      "B": "P \\vee Q; \\sim P; Therefore, Q",
-      "C": "P \\wedge Q; Therefore, P",
-      "D": "P; Therefore, P \\vee Q"
+      "A": "P → Q; P; Therefore, Q",
+      "B": "P ∨ Q; ~ P; Therefore, Q",
+      "C": "P ∧ Q; Therefore, P",
+      "D": "P; Therefore, P ∨ Q"
     },
     "correct_option": "B",
-    "answer_text": "P \\vee Q; \\sim P; Therefore, Q",
+    "answer_text": "P ∨ Q; ~ P; Therefore, Q",
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Rule of Inference - Disjunctive Syllogism:\n• Form: P or Q; Not P; Therefore Q (P ∨ Q, ~P ⊢ Q).\n• Principle: In an alternative 'either/or' proposition, eliminating one alternative leaves the remaining alternative as necessarily true.",
-    "id": 234
+    "id": 233
   },
   {
     "source": "300_Gst_Questions (Q235)",
     "question": "The rule of inference CONSTRUCTIVE DILEMMA has the logical form:",
     "options": {
-      "A": "(P \\rightarrow Q) \\wedge (R \\rightarrow S); P \\vee R; Therefore, Q \\vee S",
-      "B": "P \\rightarrow Q; \\sim Q; Therefore, \\sim P",
-      "C": "P \\wedge Q; Therefore, P",
-      "D": "P \\rightarrow Q; Q \\rightarrow P; Therefore, P \\equiv Q"
+      "A": "(P → Q) ∧ (R → S); P ∨ R; Therefore, Q ∨ S",
+      "B": "P → Q; ~ Q; Therefore, ~ P",
+      "C": "P ∧ Q; Therefore, P",
+      "D": "P → Q; Q → P; Therefore, P ≡ Q"
     },
     "correct_option": "A",
-    "answer_text": "(P \\rightarrow Q) \\wedge (R \\rightarrow S); P \\vee R; Therefore, Q \\vee S",
+    "answer_text": "(P → Q) ∧ (R → S); P ∨ R; Therefore, Q ∨ S",
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
-    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: (P \\rightarrow Q) \\wedge (R \\rightarrow S); P \\vee R; Therefore, Q \\vee S\n• Concept Summary: In the study of logic and philosophy, '(P \\rightarrow Q) \\wedge (R \\rightarrow S); P \\vee R; Therefore, Q \\vee S' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 235
+    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: (P → Q) ∧ (R → S); P ∨ R; Therefore, Q ∨ S\n• Concept Summary: In the study of logic and philosophy, '(P → Q) ∧ (R → S); P ∨ R; Therefore, Q ∨ S' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
+    "id": 234
   },
   {
     "source": "300_Gst_Questions (Q236)",
     "question": "The rule of inference SIMPLIFICATION allows you to derive:",
     "options": {
-      "A": "P from the premise P \\wedge Q",
-      "B": "P \\vee Q from P",
-      "C": "Q \\rightarrow P from P \\rightarrow Q",
-      "D": "\\sim P from P"
+      "A": "P from the premise P ∧ Q",
+      "B": "P ∨ Q from P",
+      "C": "Q → P from P → Q",
+      "D": "~ P from P"
     },
     "correct_option": "A",
-    "answer_text": "P from the premise P \\wedge Q",
+    "answer_text": "P from the premise P ∧ Q",
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
-    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: P from the premise P \\wedge Q\n• Concept Summary: In the study of logic and philosophy, 'P from the premise P \\wedge Q' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 236
+    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: P from the premise P ∧ Q\n• Concept Summary: In the study of logic and philosophy, 'P from the premise P ∧ Q' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
+    "id": 235
   },
   {
     "source": "300_Gst_Questions (Q237)",
     "question": "The rule of inference CONJUNCTION allows you to derive:",
     "options": {
-      "A": "P \\wedge Q from separate premises P and Q",
-      "B": "P \\vee Q from P",
-      "C": "Q from P \\rightarrow Q",
-      "D": "P from P \\vee Q"
+      "A": "P ∧ Q from separate premises P and Q",
+      "B": "P ∨ Q from P",
+      "C": "Q from P → Q",
+      "D": "P from P ∨ Q"
     },
     "correct_option": "A",
-    "answer_text": "P \\wedge Q from separate premises P and Q",
+    "answer_text": "P ∧ Q from separate premises P and Q",
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
-    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: P \\wedge Q from separate premises P and Q\n• Concept Summary: In the study of logic and philosophy, 'P \\wedge Q from separate premises P and Q' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 237
+    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: P ∧ Q from separate premises P and Q\n• Concept Summary: In the study of logic and philosophy, 'P ∧ Q from separate premises P and Q' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
+    "id": 236
   },
   {
     "source": "300_Gst_Questions (Q238)",
     "question": "The rule of inference ADDITION allows you to derive:",
     "options": {
-      "A": "P \\vee Q from the single premise P",
-      "B": "P \\wedge Q from P",
-      "C": "Q from P \\rightarrow Q",
-      "D": "\\sim P from P"
+      "A": "P ∨ Q from the single premise P",
+      "B": "P ∧ Q from P",
+      "C": "Q from P → Q",
+      "D": "~ P from P"
     },
     "correct_option": "A",
-    "answer_text": "P \\vee Q from the single premise P",
+    "answer_text": "P ∨ Q from the single premise P",
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
-    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: P \\vee Q from the single premise P\n• Concept Summary: In the study of logic and philosophy, 'P \\vee Q from the single premise P' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 238
+    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: P ∨ Q from the single premise P\n• Concept Summary: In the study of logic and philosophy, 'P ∨ Q from the single premise P' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
+    "id": 237
   },
   {
     "source": "300_Gst_Questions (Q239)",
     "question": "The rule of inference ABSORPTION allows deriving:",
     "options": {
-      "A": "P \\rightarrow (P \\wedge Q) from P \\rightarrow Q",
-      "B": "P \\wedge Q from P",
-      "C": "P \\vee Q from \\sim P",
-      "D": "\\sim Q from \\sim P"
+      "A": "P → (P ∧ Q) from P → Q",
+      "B": "P ∧ Q from P",
+      "C": "P ∨ Q from ~ P",
+      "D": "~ Q from ~ P"
     },
     "correct_option": "A",
-    "answer_text": "P \\rightarrow (P \\wedge Q) from P \\rightarrow Q",
+    "answer_text": "P → (P ∧ Q) from P → Q",
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
-    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: P \\rightarrow (P \\wedge Q) from P \\rightarrow Q\n• Concept Summary: In the study of logic and philosophy, 'P \\rightarrow (P \\wedge Q) from P \\rightarrow Q' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 239
+    "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: P → (P ∧ Q) from P → Q\n• Concept Summary: In the study of logic and philosophy, 'P → (P ∧ Q) from P → Q' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
+    "id": 238
   },
   {
     "source": "300_Gst_Questions (Q240)",
@@ -3840,7 +3824,7 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Rule of Inference - Modus Ponens (Affirming the Antecedent):\n• Form: If P then Q; P; Therefore Q (P → Q, P ⊢ Q).\n• Principle: When a conditional statement is accepted and its antecedent (condition) is affirmed as true, the consequent (result) necessarily follows.\n• Note: Do not confuse with the formal fallacy of 'Affirming the Consequent' (If P then Q; Q; Therefore P — which is invalid).",
-    "id": 240
+    "id": 239
   },
   {
     "source": "300_Gst_Questions (Q241)",
@@ -3856,7 +3840,7 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Rule of Inference - Modus Tollens (Denying the Consequent):\n• Form: If P then Q; Not Q; Therefore Not P (P → Q, ~Q ⊢ ~P).\n• Principle: If a conditional statement holds true but the consequent is denied/false, the antecedent must also be false.\n• Note: Do not confuse with the formal fallacy of 'Denying the Antecedent' (If P then Q; Not P; Therefore Not Q — which is invalid).",
-    "id": 241
+    "id": 240
   },
   {
     "source": "300_Gst_Questions (Q242)",
@@ -3872,7 +3856,7 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Rule of Inference - Hypothetical Syllogism (Chain Argument):\n• Form: If P then Q; If Q then R; Therefore If P then R (P → Q, Q → R ⊢ P → R).\n• Principle: Transitive property of conditional statements, allowing conditional chaining.",
-    "id": 242
+    "id": 241
   },
   {
     "source": "300_Gst_Questions (Q243)",
@@ -3888,7 +3872,7 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Rule of Inference - Disjunctive Syllogism:\n• Form: P or Q; Not P; Therefore Q (P ∨ Q, ~P ⊢ Q).\n• Principle: In an alternative 'either/or' proposition, eliminating one alternative leaves the remaining alternative as necessarily true.",
-    "id": 243
+    "id": 242
   },
   {
     "source": "300_Gst_Questions (Q244)",
@@ -3904,7 +3888,7 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: Nneka is an engineer or Nneka is a doctor\n• Concept Summary: In the study of logic and philosophy, 'Nneka is an engineer or Nneka is a doctor' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 244
+    "id": 243
   },
   {
     "source": "300_Gst_Questions (Q245)",
@@ -3920,7 +3904,7 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: Kalu is honest\n• Concept Summary: In the study of logic and philosophy, 'Kalu is honest' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 245
+    "id": 244
   },
   {
     "source": "300_Gst_Questions (Q246)",
@@ -3936,7 +3920,7 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: Conjunction\n• Concept Summary: In the study of logic and philosophy, 'Conjunction' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 246
+    "id": 245
   },
   {
     "source": "300_Gst_Questions (Q247)",
@@ -3952,11 +3936,11 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: Affirming the Consequent\n• Concept Summary: In the study of logic and philosophy, 'Affirming the Consequent' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 247
+    "id": 246
   },
   {
     "source": "300_Gst_Questions (Q248)",
-    "question": "The argument \"If P then Q; \\sim P; Therefore, \\sim Q\" represents which formal fallacy?",
+    "question": "The argument \"If P then Q; ~ P; Therefore, ~ Q\" represents which formal fallacy?",
     "options": {
       "A": "Modus Tollens",
       "B": "Denying the Antecedent",
@@ -3968,7 +3952,7 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: Denying the Antecedent\n• Concept Summary: In the study of logic and philosophy, 'Denying the Antecedent' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 248
+    "id": 247
   },
   {
     "source": "300_Gst_Questions (Q249)",
@@ -3984,7 +3968,7 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Rule of Inference - Modus Ponens (Affirming the Antecedent):\n• Form: If P then Q; P; Therefore Q (P → Q, P ⊢ Q).\n• Principle: When a conditional statement is accepted and its antecedent (condition) is affirmed as true, the consequent (result) necessarily follows.\n• Note: Do not confuse with the formal fallacy of 'Affirming the Consequent' (If P then Q; Q; Therefore P — which is invalid).",
-    "id": 249
+    "id": 248
   },
   {
     "source": "300_Gst_Questions (Q250)",
@@ -4000,59 +3984,59 @@ const GST_QUESTIONS = [
     "topic": "Rules of Inference in Symbolic Logic",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Rules of Inference in Symbolic Logic):\n• Correct Answer: Previous line numbers and an established rule of inference\n• Concept Summary: In the study of logic and philosophy, 'Previous line numbers and an established rule of inference' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Rules of Inference in Symbolic Logic ensures solid grasp of this foundational concept.",
-    "id": 250
+    "id": 249
   },
   {
     "source": "300_Gst_Questions (Q251)",
-    "question": "Can Modus Tollens be applied to the premises P \\rightarrow Q and Q?",
+    "question": "Can Modus Tollens be applied to the premises P → Q and Q?",
     "options": {
       "A": "Yes, yields P",
       "B": "No, that would be the fallacy of affirming the consequent",
-      "C": "Yes, yields \\sim P",
-      "D": "Yields P \\wedge Q"
+      "C": "Yes, yields ~ P",
+      "D": "Yields P ∧ Q"
     },
     "correct_option": "B",
     "answer_text": "No, that would be the fallacy of affirming the consequent",
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Rule of Inference - Modus Tollens (Denying the Consequent):\n• Form: If P then Q; Not Q; Therefore Not P (P → Q, ~Q ⊢ ~P).\n• Principle: If a conditional statement holds true but the consequent is denied/false, the antecedent must also be false.\n• Note: Do not confuse with the formal fallacy of 'Denying the Antecedent' (If P then Q; Not P; Therefore Not Q — which is invalid).",
-    "id": 251
+    "id": 250
   },
   {
     "source": "300_Gst_Questions (Q252)",
-    "question": "Given (A \\vee B) \\rightarrow C and A \\vee B, what line follows by Modus Ponens?",
+    "question": "Given (A ∨ B) → C and A ∨ B, what line follows by Modus Ponens?",
     "options": {
       "A": "A",
       "B": "B",
       "C": "C",
-      "D": "\\sim C"
+      "D": "~ C"
     },
     "correct_option": "C",
     "answer_text": "C",
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Rule of Inference - Modus Ponens (Affirming the Antecedent):\n• Form: If P then Q; P; Therefore Q (P → Q, P ⊢ Q).\n• Principle: When a conditional statement is accepted and its antecedent (condition) is affirmed as true, the consequent (result) necessarily follows.\n• Note: Do not confuse with the formal fallacy of 'Affirming the Consequent' (If P then Q; Q; Therefore P — which is invalid).",
-    "id": 252
+    "id": 251
   },
   {
     "source": "300_Gst_Questions (Q253)",
-    "question": "Given X \\rightarrow \\sim Y and Y (which is \\sim\\sim Y), what follows by Modus Tollens?",
+    "question": "Given X → ~ Y and Y (which is ~~ Y), what follows by Modus Tollens?",
     "options": {
       "A": "X",
-      "B": "\\sim X",
-      "C": "Y \\rightarrow X",
-      "D": "X \\wedge Y"
+      "B": "~ X",
+      "C": "Y → X",
+      "D": "X ∧ Y"
     },
     "correct_option": "B",
-    "answer_text": "\\sim X",
+    "answer_text": "~ X",
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Rule of Inference - Modus Tollens (Denying the Consequent):\n• Form: If P then Q; Not Q; Therefore Not P (P → Q, ~Q ⊢ ~P).\n• Principle: If a conditional statement holds true but the consequent is denied/false, the antecedent must also be false.\n• Note: Do not confuse with the formal fallacy of 'Denying the Antecedent' (If P then Q; Not P; Therefore Not Q — which is invalid).",
-    "id": 253
+    "id": 252
   },
   {
     "source": "300_Gst_Questions (Q254)",
-    "question": "Given A \\rightarrow B and B \\rightarrow C, deriving A \\rightarrow C uses:",
+    "question": "Given A → B and B → C, deriving A → C uses:",
     "options": {
       "A": "Disjunctive Syllogism",
       "B": "Hypothetical Syllogism",
@@ -4064,7 +4048,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Rule of Inference - Hypothetical Syllogism (Chain Argument):\n• Form: If P then Q; If Q then R; Therefore If P then R (P → Q, Q → R ⊢ P → R).\n• Principle: Transitive property of conditional statements, allowing conditional chaining.",
-    "id": 254
+    "id": 253
   },
   {
     "source": "300_Gst_Questions (Q255)",
@@ -4080,7 +4064,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Rule of Inference - Disjunctive Syllogism:\n• Form: P or Q; Not P; Therefore Q (P ∨ Q, ~P ⊢ Q).\n• Principle: In an alternative 'either/or' proposition, eliminating one alternative leaves the remaining alternative as necessarily true.",
-    "id": 255
+    "id": 254
   },
   {
     "source": "300_Gst_Questions (Q256)",
@@ -4096,11 +4080,11 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Disjunction of the antecedents\n• Concept Summary: In the study of logic and philosophy, 'Disjunction of the antecedents' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 256
+    "id": 255
   },
   {
     "source": "300_Gst_Questions (Q257)",
-    "question": "Which rule of inference justifies: M \\vdash M \\vee N?",
+    "question": "Which rule of inference justifies: M ⊢ M ∨ N?",
     "options": {
       "A": "Addition",
       "B": "Simplification",
@@ -4112,11 +4096,11 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Addition\n• Concept Summary: In the study of logic and philosophy, 'Addition' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 257
+    "id": 256
   },
   {
     "source": "300_Gst_Questions (Q258)",
-    "question": "Which rule of inference justifies: R \\wedge S \\vdash R?",
+    "question": "Which rule of inference justifies: R ∧ S ⊢ R?",
     "options": {
       "A": "Addition",
       "B": "Simplification",
@@ -4128,11 +4112,11 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Simplification\n• Concept Summary: In the study of logic and philosophy, 'Simplification' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 258
+    "id": 257
   },
   {
     "source": "300_Gst_Questions (Q259)",
-    "question": "Which rule of inference justifies: E, F \\vdash E \\wedge F?",
+    "question": "Which rule of inference justifies: E, F ⊢ E ∧ F?",
     "options": {
       "A": "Simplification",
       "B": "Conjunction",
@@ -4144,7 +4128,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Conjunction\n• Concept Summary: In the study of logic and philosophy, 'Conjunction' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 259
+    "id": 258
   },
   {
     "source": "300_Gst_Questions (Q260)",
@@ -4160,7 +4144,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: One-way directional implications applied only to whole lines\n• Concept Summary: In the study of logic and philosophy, 'One-way directional implications applied only to whole lines' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 260
+    "id": 259
   },
   {
     "source": "300_Gst_Questions (Q261)",
@@ -4176,7 +4160,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Reasoning that invalidates or weakens an argument\n• Concept Summary: In the study of logic and philosophy, 'Reasoning that invalidates or weakens an argument' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 261
+    "id": 260
   },
   {
     "source": "300_Gst_Questions (Q262)",
@@ -4192,7 +4176,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Structural form or logical shape\n• Concept Summary: In the study of logic and philosophy, 'Structural form or logical shape' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 262
+    "id": 261
   },
   {
     "source": "300_Gst_Questions (Q263)",
@@ -4208,7 +4192,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Content, language ambiguity, or irrelevant premises\n• Concept Summary: In the study of logic and philosophy, 'Content, language ambiguity, or irrelevant premises' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 263
+    "id": 262
   },
   {
     "source": "300_Gst_Questions (Q264)",
@@ -4224,7 +4208,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Equivocation\n• Concept Summary: In the study of logic and philosophy, 'Equivocation' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 264
+    "id": 263
   },
   {
     "source": "300_Gst_Questions (Q265)",
@@ -4240,7 +4224,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Equivocation (shifting meaning of \"light\")\n• Concept Summary: In the study of logic and philosophy, 'Equivocation (shifting meaning of \"light\")' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 265
+    "id": 264
   },
   {
     "source": "300_Gst_Questions (Q266)",
@@ -4256,7 +4240,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Amphibology\n• Concept Summary: In the study of logic and philosophy, 'Amphibology' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 266
+    "id": 265
   },
   {
     "source": "300_Gst_Questions (Q267)",
@@ -4272,7 +4256,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Amphibology\n• Concept Summary: In the study of logic and philosophy, 'Amphibology' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 267
+    "id": 266
   },
   {
     "source": "300_Gst_Questions (Q268)",
@@ -4288,7 +4272,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Informal Fallacy - Argumentum Ad Hominem (Appeal to the Person):\n• Definition: Attacking the person's character, motives, background, or physical traits rather than addressing the substance of their argument.\n• Varieties: Abusive (direct insult), Circumstantial (pointing to vested interest), and Tu Quoque ('you too' / hypocrisy accusation).",
-    "id": 268
+    "id": 267
   },
   {
     "source": "300_Gst_Questions (Q269)",
@@ -4304,7 +4288,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Informal Fallacy - Argumentum Ad Hominem (Appeal to the Person):\n• Definition: Attacking the person's character, motives, background, or physical traits rather than addressing the substance of their argument.\n• Varieties: Abusive (direct insult), Circumstantial (pointing to vested interest), and Tu Quoque ('you too' / hypocrisy accusation).",
-    "id": 269
+    "id": 268
   },
   {
     "source": "300_Gst_Questions (Q270)",
@@ -4320,7 +4304,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Appeals to popular feelings, mob emotions, or widespread belief rather than relevant evidence\n• Concept Summary: In the study of logic and philosophy, 'Appeals to popular feelings, mob emotions, or widespread belief rather than relevant evidence' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 270
+    "id": 269
   },
   {
     "source": "300_Gst_Questions (Q271)",
@@ -4336,7 +4320,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Ad Populum\n• Concept Summary: In the study of logic and philosophy, 'Ad Populum' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 271
+    "id": 270
   },
   {
     "source": "300_Gst_Questions (Q272)",
@@ -4352,7 +4336,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Attempts to evoke feelings of pity or sympathy to win acceptance of a conclusion without logical evidence\n• Concept Summary: In the study of logic and philosophy, 'Attempts to evoke feelings of pity or sympathy to win acceptance of a conclusion without logical evidence' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 272
+    "id": 271
   },
   {
     "source": "300_Gst_Questions (Q273)",
@@ -4368,7 +4352,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Ad Misericordiam\n• Concept Summary: In the study of logic and philosophy, 'Ad Misericordiam' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 273
+    "id": 272
   },
   {
     "source": "300_Gst_Questions (Q274)",
@@ -4384,7 +4368,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Uses implicit or explicit threats of force/harm to compel acceptance of a conclusion\n• Concept Summary: In the study of logic and philosophy, 'Uses implicit or explicit threats of force/harm to compel acceptance of a conclusion' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 274
+    "id": 273
   },
   {
     "source": "300_Gst_Questions (Q275)",
@@ -4400,7 +4384,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Ad Baculum\n• Concept Summary: In the study of logic and philosophy, 'Ad Baculum' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 275
+    "id": 274
   },
   {
     "source": "300_Gst_Questions (Q276)",
@@ -4416,7 +4400,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: It has not yet been proven false (or false because not proven true)\n• Concept Summary: In the study of logic and philosophy, 'It has not yet been proven false (or false because not proven true)' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 276
+    "id": 275
   },
   {
     "source": "300_Gst_Questions (Q277)",
@@ -4432,7 +4416,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Appeal to Ignorance (Ad Ignorantiam)\n• Concept Summary: In the study of logic and philosophy, 'Appeal to Ignorance (Ad Ignorantiam)' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 277
+    "id": 276
   },
   {
     "source": "300_Gst_Questions (Q278)",
@@ -4448,7 +4432,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Informal Fallacy - Straw Man:\n• Definition: Distorting, exaggerating, or misrepresenting an opponent's actual argument to create a weaker, easily attackable target.\n• Key Indicator: The attacker refutes the distorted caricature and pretends to have defeated the original argument.",
-    "id": 278
+    "id": 277
   },
   {
     "source": "300_Gst_Questions (Q279)",
@@ -4464,7 +4448,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Red Herring\n• Concept Summary: In the study of logic and philosophy, 'Red Herring' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 279
+    "id": 278
   },
   {
     "source": "300_Gst_Questions (Q280)",
@@ -4480,7 +4464,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Informal Fallacy - Petitio Principii (Begging the Question / Circular Reasoning):\n• Definition: An argument in which the premises explicitly or implicitly assume the truth of the conclusion they are supposed to prove.\n• Result: The argument provides zero genuine external evidence; it merely restates the claim in different words.",
-    "id": 280
+    "id": 279
   },
   {
     "source": "300_Gst_Questions (Q281)",
@@ -4496,7 +4480,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Informal Fallacy - Petitio Principii (Begging the Question / Circular Reasoning):\n• Definition: An argument in which the premises explicitly or implicitly assume the truth of the conclusion they are supposed to prove.\n• Result: The argument provides zero genuine external evidence; it merely restates the claim in different words.",
-    "id": 281
+    "id": 280
   },
   {
     "source": "300_Gst_Questions (Q282)",
@@ -4512,7 +4496,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Because Event B occurred after Event A, Event A must have caused Event B\n• Concept Summary: In the study of logic and philosophy, 'Because Event B occurred after Event A, Event A must have caused Event B' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 282
+    "id": 281
   },
   {
     "source": "300_Gst_Questions (Q283)",
@@ -4528,7 +4512,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Post Hoc Ergo Propter Hoc (False Cause)\n• Concept Summary: In the study of logic and philosophy, 'Post Hoc Ergo Propter Hoc (False Cause)' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 283
+    "id": 282
   },
   {
     "source": "300_Gst_Questions (Q284)",
@@ -4544,7 +4528,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Hasty Generalization\n• Concept Summary: In the study of logic and philosophy, 'Hasty Generalization' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 284
+    "id": 283
   },
   {
     "source": "300_Gst_Questions (Q285)",
@@ -4560,7 +4544,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: False Dilemma / Bifurcation\n• Concept Summary: In the study of logic and philosophy, 'False Dilemma / Bifurcation' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 285
+    "id": 284
   },
   {
     "source": "300_Gst_Questions (Q286)",
@@ -4576,7 +4560,7 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Classical Laws of Thought):\n• Correct Answer: Rational discourse, logical reasoning, and coherent thinking\n• Concept Summary: In the study of logic and philosophy, 'Rational discourse, logical reasoning, and coherent thinking' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Classical Laws of Thought ensures solid grasp of this foundational concept.",
-    "id": 286
+    "id": 285
   },
   {
     "source": "300_Gst_Questions (Q287)",
@@ -4592,7 +4576,7 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Classical Laws of Thought):\n• Correct Answer: Three\n• Concept Summary: In the study of logic and philosophy, 'Three' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Classical Laws of Thought ensures solid grasp of this foundational concept.",
-    "id": 287
+    "id": 286
   },
   {
     "source": "300_Gst_Questions (Q288), Benjamin_Exam (Q49), Study_59 (Q16)",
@@ -4608,23 +4592,23 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "First Law of Thought - Law of Identity:\n• Formulation: A = A ('Everything is identical to itself').\n• Logical Meaning: An entity, term, or proposition maintains its distinct meaning throughout a rational discourse without arbitrary shift.\n• Role: Ensures conceptual consistency and prevents ambiguity or equivocation.",
-    "id": 288
+    "id": 287
   },
   {
     "source": "300_Gst_Questions (Q289)",
     "question": "Which formula symbolically expresses the Law of Identity?",
     "options": {
-      "A": "P \\rightarrow P (or A is A)",
-      "B": "\\sim(P \\wedge \\sim P)",
-      "C": "P \\vee \\sim P",
-      "D": "P \\wedge Q"
+      "A": "P → P (or A is A)",
+      "B": "~(P ∧ ~ P)",
+      "C": "P ∨ ~ P",
+      "D": "P ∧ Q"
     },
     "correct_option": "A",
-    "answer_text": "P \\rightarrow P (or A is A)",
+    "answer_text": "P → P (or A is A)",
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "First Law of Thought - Law of Identity:\n• Formulation: A = A ('Everything is identical to itself').\n• Logical Meaning: An entity, term, or proposition maintains its distinct meaning throughout a rational discourse without arbitrary shift.\n• Role: Ensures conceptual consistency and prevents ambiguity or equivocation.",
-    "id": 289
+    "id": 288
   },
   {
     "source": "300_Gst_Questions (Q290)",
@@ -4640,7 +4624,7 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "First Law of Thought - Law of Identity:\n• Formulation: A = A ('Everything is identical to itself').\n• Logical Meaning: An entity, term, or proposition maintains its distinct meaning throughout a rational discourse without arbitrary shift.\n• Role: Ensures conceptual consistency and prevents ambiguity or equivocation.",
-    "id": 290
+    "id": 289
   },
   {
     "source": "300_Gst_Questions (Q291), Benjamin_Exam (Q50), Past_Questions_PQ (Q17)",
@@ -4656,23 +4640,23 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Second Law of Thought - Law of Non-Contradiction:\n• Formulation: ~(A ∧ ~A) ('A statement cannot be both true and false simultaneously in the same respect').\n• Logical Meaning: Contradictory assertions cannot co-exist; if a proposition is true, its exact denial must be false.\n• Role: Preserves rational coherence; from a contradiction, anything could otherwise be erroneously deduced (Principle of Explosion).",
-    "id": 291
+    "id": 290
   },
   {
     "source": "300_Gst_Questions (Q292)",
     "question": "Which formula symbolically expresses the Law of Non-Contradiction?",
     "options": {
-      "A": "\\sim(P \\wedge \\sim P)",
-      "B": "P \\vee \\sim P",
-      "C": "P \\rightarrow P",
-      "D": "P \\equiv Q"
+      "A": "~(P ∧ ~ P)",
+      "B": "P ∨ ~ P",
+      "C": "P → P",
+      "D": "P ≡ Q"
     },
     "correct_option": "A",
-    "answer_text": "\\sim(P \\wedge \\sim P)",
+    "answer_text": "~(P ∧ ~ P)",
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Second Law of Thought - Law of Non-Contradiction:\n• Formulation: ~(A ∧ ~A) ('A statement cannot be both true and false simultaneously in the same respect').\n• Logical Meaning: Contradictory assertions cannot co-exist; if a proposition is true, its exact denial must be false.\n• Role: Preserves rational coherence; from a contradiction, anything could otherwise be erroneously deduced (Principle of Explosion).",
-    "id": 292
+    "id": 291
   },
   {
     "source": "300_Gst_Questions (Q293)",
@@ -4688,7 +4672,7 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Second Law of Thought - Law of Non-Contradiction:\n• Formulation: ~(A ∧ ~A) ('A statement cannot be both true and false simultaneously in the same respect').\n• Logical Meaning: Contradictory assertions cannot co-exist; if a proposition is true, its exact denial must be false.\n• Role: Preserves rational coherence; from a contradiction, anything could otherwise be erroneously deduced (Principle of Explosion).",
-    "id": 293
+    "id": 292
   },
   {
     "source": "300_Gst_Questions (Q294), Benjamin_Exam (Q51), Study_59 (Q18)",
@@ -4704,23 +4688,23 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Third Law of Thought - Law of Excluded Middle:\n• Formulation: A ∨ ~A ('Either A or not-A; there is no third middle state').\n• Logical Meaning: Every declarative proposition must be either true or false in standard classical logic.\n• Role: Foundation for bivalent logic and indirect proofs (reductio ad absurdum).",
-    "id": 294
+    "id": 293
   },
   {
     "source": "300_Gst_Questions (Q295)",
     "question": "Which formula symbolically expresses the Law of Excluded Middle?",
     "options": {
-      "A": "P \\vee \\sim P",
-      "B": "\\sim(P \\wedge \\sim P)",
-      "C": "P \\rightarrow P",
-      "D": "P \\wedge \\sim P"
+      "A": "P ∨ ~ P",
+      "B": "~(P ∧ ~ P)",
+      "C": "P → P",
+      "D": "P ∧ ~ P"
     },
     "correct_option": "A",
-    "answer_text": "P \\vee \\sim P",
+    "answer_text": "P ∨ ~ P",
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Third Law of Thought - Law of Excluded Middle:\n• Formulation: A ∨ ~A ('Either A or not-A; there is no third middle state').\n• Logical Meaning: Every declarative proposition must be either true or false in standard classical logic.\n• Role: Foundation for bivalent logic and indirect proofs (reductio ad absurdum).",
-    "id": 295
+    "id": 294
   },
   {
     "source": "300_Gst_Questions (Q296)",
@@ -4736,7 +4720,7 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Third Law of Thought - Law of Excluded Middle:\n• Formulation: A ∨ ~A ('Either A or not-A; there is no third middle state').\n• Logical Meaning: Every declarative proposition must be either true or false in standard classical logic.\n• Role: Foundation for bivalent logic and indirect proofs (reductio ad absurdum).",
-    "id": 296
+    "id": 295
   },
   {
     "source": "300_Gst_Questions (Q297)",
@@ -4752,7 +4736,7 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Classical Laws of Thought):\n• Correct Answer: Because any attempt to refute them must secretly assume and rely on them to make a coherent assertion\n• Concept Summary: In the study of logic and philosophy, 'Because any attempt to refute them must secretly assume and rely on them to make a coherent assertion' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Classical Laws of Thought ensures solid grasp of this foundational concept.",
-    "id": 297
+    "id": 296
   },
   {
     "source": "300_Gst_Questions (Q298)",
@@ -4768,7 +4752,7 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Second Law of Thought - Law of Non-Contradiction:\n• Formulation: ~(A ∧ ~A) ('A statement cannot be both true and false simultaneously in the same respect').\n• Logical Meaning: Contradictory assertions cannot co-exist; if a proposition is true, its exact denial must be false.\n• Role: Preserves rational coherence; from a contradiction, anything could otherwise be erroneously deduced (Principle of Explosion).",
-    "id": 298
+    "id": 297
   },
   {
     "source": "300_Gst_Questions (Q299)",
@@ -4784,7 +4768,7 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Second Law of Thought - Law of Non-Contradiction:\n• Formulation: ~(A ∧ ~A) ('A statement cannot be both true and false simultaneously in the same respect').\n• Logical Meaning: Contradictory assertions cannot co-exist; if a proposition is true, its exact denial must be false.\n• Role: Preserves rational coherence; from a contradiction, anything could otherwise be erroneously deduced (Principle of Explosion).",
-    "id": 299
+    "id": 298
   },
   {
     "source": "300_Gst_Questions (Q300)",
@@ -4800,7 +4784,7 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Second Law of Thought - Law of Non-Contradiction:\n• Formulation: ~(A ∧ ~A) ('A statement cannot be both true and false simultaneously in the same respect').\n• Logical Meaning: Contradictory assertions cannot co-exist; if a proposition is true, its exact denial must be false.\n• Role: Preserves rational coherence; from a contradiction, anything could otherwise be erroneously deduced (Principle of Explosion).",
-    "id": 300
+    "id": 299
   },
   {
     "source": "Benjamin_Exam (Q1)",
@@ -4816,7 +4800,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Etymology of Philosophy:\n• Linguistic Roots: Coined from ancient Greek 'philein' (meaning 'to love') and 'sophia' (meaning 'wisdom') — literally 'the love of wisdom'.\n• Historical Origin: Pythagoras is traditionally credited with first calling himself a 'philosophos' (a lover of wisdom) rather than a 'sophos' (wise man).\n• Core Nature: Philosophy is not a closed body of dogmas but a continuous, critical quest for fundamental understanding regarding reality, knowledge, and moral existence.",
-    "id": 301
+    "id": 300
   },
   {
     "source": "Benjamin_Exam (Q2), Study_59 (Q2)",
@@ -4832,7 +4816,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Physics\n• Concept Summary: In the study of logic and philosophy, 'Physics' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 302
+    "id": 301
   },
   {
     "source": "Benjamin_Exam (Q3)",
@@ -4848,7 +4832,7 @@ const GST_QUESTIONS = [
     "topic": "Metaphysics & Human Existence",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "Metaphysics (Study of Reality and Being):\n• Scope: The foundational branch of philosophy that investigates the nature of ultimate reality, existence, and the universe.\n• Key Sub-fields: Ontology (the study of being and what entities fundamentally exist), Cosmology (the origin and order of the cosmos), and the Mind-Body Problem.\n• Focus Areas: Explores questions beyond empirical physics, such as identity, time, space, causality, and determinism vs. free will.",
-    "id": 303
+    "id": 302
   },
   {
     "source": "Benjamin_Exam (Q4)",
@@ -4864,7 +4848,7 @@ const GST_QUESTIONS = [
     "topic": "Epistemology & Theories of Knowledge",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "Epistemology (Theory of Knowledge):\n• Definition: The core branch of philosophy concerned with the nature, origin, scope, acquisition, and limits of knowledge.\n• Major Inquiries: 'What is knowledge?' (traditionally analyzed as Justified True Belief), 'How do we know what we know?', and 'What is the distinction between mere belief and proven truth?'\n• Key Epistemic Schools: Rationalism (reason/intellect as primary source) vs. Empiricism (sensory perception as primary source).",
-    "id": 304
+    "id": 303
   },
   {
     "source": "Benjamin_Exam (Q5)",
@@ -4880,7 +4864,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Axiology (Theory of Values):\n• Etymology: Derived from Greek 'axios' (worth/value) and 'logos' (study of).\n• Core Divisions:\n  1. Ethics: The study of moral values, good vs. bad, and principles guiding human conduct.\n  2. Aesthetics: The philosophical study of beauty, art, taste, and sensory evaluation.",
-    "id": 305
+    "id": 304
   },
   {
     "source": "Benjamin_Exam (Q6)",
@@ -4896,7 +4880,7 @@ const GST_QUESTIONS = [
     "topic": "Metaphysics & Human Existence",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "Metaphysics (Study of Reality and Being):\n• Scope: The foundational branch of philosophy that investigates the nature of ultimate reality, existence, and the universe.\n• Key Sub-fields: Ontology (the study of being and what entities fundamentally exist), Cosmology (the origin and order of the cosmos), and the Mind-Body Problem.\n• Focus Areas: Explores questions beyond empirical physics, such as identity, time, space, causality, and determinism vs. free will.",
-    "id": 306
+    "id": 305
   },
   {
     "source": "Benjamin_Exam (Q7)",
@@ -4912,7 +4896,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Socrates\n• Concept Summary: In the study of logic and philosophy, 'Socrates' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 307
+    "id": 306
   },
   {
     "source": "Benjamin_Exam (Q8)",
@@ -4928,7 +4912,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Blind acceptance of tradition\n• Concept Summary: In the study of logic and philosophy, 'Blind acceptance of tradition' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 308
+    "id": 307
   },
   {
     "source": "Benjamin_Exam (Q9)",
@@ -4944,7 +4928,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Critically examine life, truth, and reality\n• Concept Summary: In the study of logic and philosophy, 'Critically examine life, truth, and reality' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 309
+    "id": 308
   },
   {
     "source": "Benjamin_Exam (Q10)",
@@ -4960,7 +4944,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Socratic Philosophy & Human Existence:\n• Key Principle: Socrates famously declared in Plato's Apology: 'The unexamined life is not worth living.'\n• Meaning: A truly authentic and meaningful human life requires constant critical reflection upon one's beliefs, values, virtues, and actions rather than living in passive acceptance of societal dogma.\n• Method: The Socratic Method (elenchus) employs probing dialogue and questioning to expose contradictions and attain deeper clarity.",
-    "id": 310
+    "id": 309
   },
   {
     "source": "Benjamin_Exam (Q11)",
@@ -4976,7 +4960,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Philosophy gives science its logical foundation\n• Concept Summary: In the study of logic and philosophy, 'Philosophy gives science its logical foundation' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 311
+    "id": 310
   },
   {
     "source": "Benjamin_Exam (Q12)",
@@ -4992,7 +4976,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Aesthetics\n• Concept Summary: In the study of logic and philosophy, 'Aesthetics' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 312
+    "id": 311
   },
   {
     "source": "Benjamin_Exam (Q13)",
@@ -5008,7 +4992,7 @@ const GST_QUESTIONS = [
     "topic": "Epistemology & Theories of Knowledge",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "Epistemology (Theory of Knowledge):\n• Definition: The core branch of philosophy concerned with the nature, origin, scope, acquisition, and limits of knowledge.\n• Major Inquiries: 'What is knowledge?' (traditionally analyzed as Justified True Belief), 'How do we know what we know?', and 'What is the distinction between mere belief and proven truth?'\n• Key Epistemic Schools: Rationalism (reason/intellect as primary source) vs. Empiricism (sensory perception as primary source).",
-    "id": 313
+    "id": 312
   },
   {
     "source": "Benjamin_Exam (Q14)",
@@ -5024,7 +5008,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Whether God exists\n• Concept Summary: In the study of logic and philosophy, 'Whether God exists' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 314
+    "id": 313
   },
   {
     "source": "Benjamin_Exam (Q15)",
@@ -5040,7 +5024,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Seeks rational explanation without experiments\n• Concept Summary: In the study of logic and philosophy, 'Seeks rational explanation without experiments' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 315
+    "id": 314
   },
   {
     "source": "Benjamin_Exam (Q16)",
@@ -5056,7 +5040,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Asking questions to stimulate critical thinking\n• Concept Summary: In the study of logic and philosophy, 'Asking questions to stimulate critical thinking' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 316
+    "id": 315
   },
   {
     "source": "Benjamin_Exam (Q17)",
@@ -5072,7 +5056,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Logical\n• Concept Summary: In the study of logic and philosophy, 'Logical' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 317
+    "id": 316
   },
   {
     "source": "Benjamin_Exam (Q18)",
@@ -5088,7 +5072,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Rational criticism\n• Concept Summary: In the study of logic and philosophy, 'Rational criticism' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 318
+    "id": 317
   },
   {
     "source": "Benjamin_Exam (Q19)",
@@ -5104,7 +5088,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Philosophy relies on reason, religion on faith\n• Concept Summary: In the study of logic and philosophy, 'Philosophy relies on reason, religion on faith' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 319
+    "id": 318
   },
   {
     "source": "Benjamin_Exam (Q20)",
@@ -5120,7 +5104,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: The nature of reality and the universe\n• Concept Summary: In the study of logic and philosophy, 'The nature of reality and the universe' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 320
+    "id": 319
   },
   {
     "source": "Benjamin_Exam (Q21)",
@@ -5136,7 +5120,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Correct reasoning and argumentation\n• Concept Summary: In the study of logic and philosophy, 'Correct reasoning and argumentation' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 321
+    "id": 320
   },
   {
     "source": "Benjamin_Exam (Q22), Past_Questions_PQ (Q86)",
@@ -5152,7 +5136,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Provides tools to analyze arguments\n• Concept Summary: In the study of logic and philosophy, 'Provides tools to analyze arguments' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 322
+    "id": 321
   },
   {
     "source": "Benjamin_Exam (Q23)",
@@ -5168,7 +5152,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Aristotle\n• Concept Summary: In the study of logic and philosophy, 'Aristotle' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 323
+    "id": 322
   },
   {
     "source": "Benjamin_Exam (Q24)",
@@ -5184,7 +5168,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Premises and conclusion\n• Concept Summary: In the study of logic and philosophy, 'Premises and conclusion' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 324
+    "id": 323
   },
   {
     "source": "Benjamin_Exam (Q25)",
@@ -5200,7 +5184,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Its premises are true and conclusion follows logically\n• Concept Summary: In the study of logic and philosophy, 'Its premises are true and conclusion follows logically' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 325
+    "id": 324
   },
   {
     "source": "Benjamin_Exam (Q26), Benjamin_Exam (Q66)",
@@ -5216,7 +5200,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 326
+    "id": 325
   },
   {
     "source": "Benjamin_Exam (Q27)",
@@ -5232,7 +5216,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Shorten arguments and make reasoning precise\n• Concept Summary: In the study of logic and philosophy, 'Shorten arguments and make reasoning precise' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 327
+    "id": 326
   },
   {
     "source": "Benjamin_Exam (Q28)",
@@ -5248,7 +5232,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: P → Q\n• Concept Summary: In the study of logic and philosophy, 'P → Q' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 328
+    "id": 327
   },
   {
     "source": "Benjamin_Exam (Q29)",
@@ -5264,7 +5248,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Rule of Inference - Modus Ponens (Affirming the Antecedent):\n• Form: If P then Q; P; Therefore Q (P → Q, P ⊢ Q).\n• Principle: When a conditional statement is accepted and its antecedent (condition) is affirmed as true, the consequent (result) necessarily follows.\n• Note: Do not confuse with the formal fallacy of 'Affirming the Consequent' (If P then Q; Q; Therefore P — which is invalid).",
-    "id": 329
+    "id": 328
   },
   {
     "source": "Benjamin_Exam (Q30)",
@@ -5280,7 +5264,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Rule of Inference - Modus Tollens (Denying the Consequent):\n• Form: If P then Q; Not Q; Therefore Not P (P → Q, ~Q ⊢ ~P).\n• Principle: If a conditional statement holds true but the consequent is denied/false, the antecedent must also be false.\n• Note: Do not confuse with the formal fallacy of 'Denying the Antecedent' (If P then Q; Not P; Therefore Not Q — which is invalid).",
-    "id": 330
+    "id": 329
   },
   {
     "source": "Benjamin_Exam (Q31)",
@@ -5296,7 +5280,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Rule of Inference - Hypothetical Syllogism (Chain Argument):\n• Form: If P then Q; If Q then R; Therefore If P then R (P → Q, Q → R ⊢ P → R).\n• Principle: Transitive property of conditional statements, allowing conditional chaining.",
-    "id": 331
+    "id": 330
   },
   {
     "source": "Benjamin_Exam (Q32)",
@@ -5312,7 +5296,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Rule of Inference - Disjunctive Syllogism:\n• Form: P or Q; Not P; Therefore Q (P ∨ Q, ~P ⊢ Q).\n• Principle: In an alternative 'either/or' proposition, eliminating one alternative leaves the remaining alternative as necessarily true.",
-    "id": 332
+    "id": 331
   },
   {
     "source": "Benjamin_Exam (Q33)",
@@ -5328,7 +5312,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Second Law of Thought - Law of Non-Contradiction:\n• Formulation: ~(A ∧ ~A) ('A statement cannot be both true and false simultaneously in the same respect').\n• Logical Meaning: Contradictory assertions cannot co-exist; if a proposition is true, its exact denial must be false.\n• Role: Preserves rational coherence; from a contradiction, anything could otherwise be erroneously deduced (Principle of Explosion).",
-    "id": 333
+    "id": 332
   },
   {
     "source": "Benjamin_Exam (Q34)",
@@ -5344,7 +5328,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "First Law of Thought - Law of Identity:\n• Formulation: A = A ('Everything is identical to itself').\n• Logical Meaning: An entity, term, or proposition maintains its distinct meaning throughout a rational discourse without arbitrary shift.\n• Role: Ensures conceptual consistency and prevents ambiguity or equivocation.",
-    "id": 334
+    "id": 333
   },
   {
     "source": "Benjamin_Exam (Q35)",
@@ -5360,7 +5344,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Third Law of Thought - Law of Excluded Middle:\n• Formulation: A ∨ ~A ('Either A or not-A; there is no third middle state').\n• Logical Meaning: Every declarative proposition must be either true or false in standard classical logic.\n• Role: Foundation for bivalent logic and indirect proofs (reductio ad absurdum).",
-    "id": 335
+    "id": 334
   },
   {
     "source": "Benjamin_Exam (Q36)",
@@ -5376,7 +5360,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Valid syllogism\n• Concept Summary: In the study of logic and philosophy, 'Valid syllogism' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 336
+    "id": 335
   },
   {
     "source": "Benjamin_Exam (Q37)",
@@ -5392,7 +5376,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: All birds can fly. Penguins are birds. Therefore, penguins can fly.\n• Concept Summary: In the study of logic and philosophy, 'All birds can fly. Penguins are birds. Therefore, penguins can fly.' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 337
+    "id": 336
   },
   {
     "source": "Benjamin_Exam (Q38)",
@@ -5408,7 +5392,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Symbolic logic\n• Concept Summary: In the study of logic and philosophy, 'Symbolic logic' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 338
+    "id": 337
   },
   {
     "source": "Benjamin_Exam (Q39)",
@@ -5424,7 +5408,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: And\n• Concept Summary: In the study of logic and philosophy, 'And' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 339
+    "id": 338
   },
   {
     "source": "Benjamin_Exam (Q40)",
@@ -5440,7 +5424,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Not\n• Concept Summary: In the study of logic and philosophy, 'Not' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 340
+    "id": 339
   },
   {
     "source": "Benjamin_Exam (Q41)",
@@ -5456,7 +5440,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: A mistake in reasoning that makes an argument weak\n• Concept Summary: In the study of logic and philosophy, 'A mistake in reasoning that makes an argument weak' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 341
+    "id": 340
   },
   {
     "source": "Benjamin_Exam (Q42)",
@@ -5472,7 +5456,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Informal Fallacy - Argumentum Ad Hominem (Appeal to the Person):\n• Definition: Attacking the person's character, motives, background, or physical traits rather than addressing the substance of their argument.\n• Varieties: Abusive (direct insult), Circumstantial (pointing to vested interest), and Tu Quoque ('you too' / hypocrisy accusation).",
-    "id": 342
+    "id": 341
   },
   {
     "source": "Benjamin_Exam (Q43)",
@@ -5488,7 +5472,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Appeal to authority\n• Concept Summary: In the study of logic and philosophy, 'Appeal to authority' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 343
+    "id": 342
   },
   {
     "source": "Benjamin_Exam (Q44)",
@@ -5504,7 +5488,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: False dilemma\n• Concept Summary: In the study of logic and philosophy, 'False dilemma' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 344
+    "id": 343
   },
   {
     "source": "Benjamin_Exam (Q45)",
@@ -5520,7 +5504,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Slippery slope\n• Concept Summary: In the study of logic and philosophy, 'Slippery slope' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 345
+    "id": 344
   },
   {
     "source": "Benjamin_Exam (Q46)",
@@ -5536,7 +5520,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Informal Fallacy - Argumentum Ad Hominem (Appeal to the Person):\n• Definition: Attacking the person's character, motives, background, or physical traits rather than addressing the substance of their argument.\n• Varieties: Abusive (direct insult), Circumstantial (pointing to vested interest), and Tu Quoque ('you too' / hypocrisy accusation).",
-    "id": 346
+    "id": 345
   },
   {
     "source": "Benjamin_Exam (Q47)",
@@ -5552,7 +5536,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Appeal to ignorance\n• Concept Summary: In the study of logic and philosophy, 'Appeal to ignorance' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 347
+    "id": 346
   },
   {
     "source": "Benjamin_Exam (Q48)",
@@ -5568,7 +5552,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Hasty generalization\n• Concept Summary: In the study of logic and philosophy, 'Hasty generalization' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 348
+    "id": 347
   },
   {
     "source": "Benjamin_Exam (Q52)",
@@ -5584,7 +5568,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Premises and a conclusion\n• Concept Summary: In the study of logic and philosophy, 'Premises and a conclusion' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 349
+    "id": 348
   },
   {
     "source": "Benjamin_Exam (Q53)",
@@ -5600,7 +5584,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: The conclusion follows logically from the premises\n• Concept Summary: In the study of logic and philosophy, 'The conclusion follows logically from the premises' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 350
+    "id": 349
   },
   {
     "source": "Benjamin_Exam (Q54), Benjamin_Exam (Q62)",
@@ -5616,7 +5600,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: The reasoning does not guarantee the conclusion\n• Concept Summary: In the study of logic and philosophy, 'The reasoning does not guarantee the conclusion' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 351
+    "id": 350
   },
   {
     "source": "Benjamin_Exam (Q55)",
@@ -5632,7 +5616,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 352
+    "id": 351
   },
   {
     "source": "Benjamin_Exam (Q56)",
@@ -5648,7 +5632,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Inductive Reasoning & Empirical Generalization:\n• Core Nature: Moves from specific empirical observations/instances to broader general probabilities.\n• Strength & Cogency: Inductive arguments do not claim strict certainty; they are rated as 'Strong' or 'Weak' based on probability, and 'Cogent' when strong with true premises.",
-    "id": 353
+    "id": 352
   },
   {
     "source": "Benjamin_Exam (Q57)",
@@ -5664,7 +5648,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Valid and has true premises\n• Concept Summary: In the study of logic and philosophy, 'Valid and has true premises' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 354
+    "id": 353
   },
   {
     "source": "Benjamin_Exam (Q58)",
@@ -5680,7 +5664,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: An argument tries to prove, an explanation tries to clarify\n• Concept Summary: In the study of logic and philosophy, 'An argument tries to prove, an explanation tries to clarify' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 355
+    "id": 354
   },
   {
     "source": "Benjamin_Exam (Q59)",
@@ -5696,7 +5680,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 356
+    "id": 355
   },
   {
     "source": "Benjamin_Exam (Q60)",
@@ -5712,7 +5696,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Inductive Reasoning & Empirical Generalization:\n• Core Nature: Moves from specific empirical observations/instances to broader general probabilities.\n• Strength & Cogency: Inductive arguments do not claim strict certainty; they are rated as 'Strong' or 'Weak' based on probability, and 'Cogent' when strong with true premises.",
-    "id": 357
+    "id": 356
   },
   {
     "source": "Benjamin_Exam (Q61)",
@@ -5728,7 +5712,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Its conclusion necessarily follows from its premises\n• Concept Summary: In the study of logic and philosophy, 'Its conclusion necessarily follows from its premises' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 358
+    "id": 357
   },
   {
     "source": "Benjamin_Exam (Q63)",
@@ -5744,7 +5728,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 359
+    "id": 358
   },
   {
     "source": "Benjamin_Exam (Q64)",
@@ -5760,7 +5744,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Inductive Reasoning & Empirical Generalization:\n• Core Nature: Moves from specific empirical observations/instances to broader general probabilities.\n• Strength & Cogency: Inductive arguments do not claim strict certainty; they are rated as 'Strong' or 'Weak' based on probability, and 'Cogent' when strong with true premises.",
-    "id": 360
+    "id": 359
   },
   {
     "source": "Benjamin_Exam (Q65)",
@@ -5776,7 +5760,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Inference\n• Concept Summary: In the study of logic and philosophy, 'Inference' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 361
+    "id": 360
   },
   {
     "source": "Benjamin_Exam (Q67)",
@@ -5792,7 +5776,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Induction\n• Concept Summary: In the study of logic and philosophy, 'Induction' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 362
+    "id": 361
   },
   {
     "source": "Benjamin_Exam (Q68)",
@@ -5808,7 +5792,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Deduction and induction\n• Concept Summary: In the study of logic and philosophy, 'Deduction and induction' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 363
+    "id": 362
   },
   {
     "source": "Benjamin_Exam (Q69)",
@@ -5824,7 +5808,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 364
+    "id": 363
   },
   {
     "source": "Benjamin_Exam (Q70)",
@@ -5840,7 +5824,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Inductive Reasoning & Empirical Generalization:\n• Core Nature: Moves from specific empirical observations/instances to broader general probabilities.\n• Strength & Cogency: Inductive arguments do not claim strict certainty; they are rated as 'Strong' or 'Weak' based on probability, and 'Cogent' when strong with true premises.",
-    "id": 365
+    "id": 364
   },
   {
     "source": "Benjamin_Exam (Q71)",
@@ -5856,7 +5840,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: A sound argument is valid with true premises\n• Concept Summary: In the study of logic and philosophy, 'A sound argument is valid with true premises' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 366
+    "id": 365
   },
   {
     "source": "Benjamin_Exam (Q72)",
@@ -5872,7 +5856,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 367
+    "id": 366
   },
   {
     "source": "Benjamin_Exam (Q73)",
@@ -5888,7 +5872,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Inductive Reasoning & Empirical Generalization:\n• Core Nature: Moves from specific empirical observations/instances to broader general probabilities.\n• Strength & Cogency: Inductive arguments do not claim strict certainty; they are rated as 'Strong' or 'Weak' based on probability, and 'Cogent' when strong with true premises.",
-    "id": 368
+    "id": 367
   },
   {
     "source": "Benjamin_Exam (Q74)",
@@ -5904,7 +5888,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 369
+    "id": 368
   },
   {
     "source": "Benjamin_Exam (Q75)",
@@ -5920,7 +5904,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Inductive Reasoning & Empirical Generalization:\n• Core Nature: Moves from specific empirical observations/instances to broader general probabilities.\n• Strength & Cogency: Inductive arguments do not claim strict certainty; they are rated as 'Strong' or 'Weak' based on probability, and 'Cogent' when strong with true premises.",
-    "id": 370
+    "id": 369
   },
   {
     "source": "Benjamin_Exam (Q76), Past_Questions_PQ (Q24)",
@@ -5936,7 +5920,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: The logical structure of the reasoning\n• Concept Summary: In the study of logic and philosophy, 'The logical structure of the reasoning' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 371
+    "id": 370
   },
   {
     "source": "Benjamin_Exam (Q77)",
@@ -5952,7 +5936,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: The truth or falsity of its premises\n• Concept Summary: In the study of logic and philosophy, 'The truth or falsity of its premises' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 372
+    "id": 371
   },
   {
     "source": "Benjamin_Exam (Q78)",
@@ -5968,7 +5952,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: It may be valid but not sound\n• Concept Summary: In the study of logic and philosophy, 'It may be valid but not sound' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 373
+    "id": 372
   },
   {
     "source": "Benjamin_Exam (Q79)",
@@ -5984,7 +5968,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 374
+    "id": 373
   },
   {
     "source": "Benjamin_Exam (Q80)",
@@ -6000,7 +5984,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Inductive Reasoning & Empirical Generalization:\n• Core Nature: Moves from specific empirical observations/instances to broader general probabilities.\n• Strength & Cogency: Inductive arguments do not claim strict certainty; they are rated as 'Strong' or 'Weak' based on probability, and 'Cogent' when strong with true premises.",
-    "id": 375
+    "id": 374
   },
   {
     "source": "Benjamin_Exam (Q81)",
@@ -6016,7 +6000,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Generating new ideas and solutions\n• Concept Summary: In the study of logic and philosophy, 'Generating new ideas and solutions' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 376
+    "id": 375
   },
   {
     "source": "Benjamin_Exam (Q82)",
@@ -6032,7 +6016,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Careful analysis and evaluation of ideas\n• Concept Summary: In the study of logic and philosophy, 'Careful analysis and evaluation of ideas' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 377
+    "id": 376
   },
   {
     "source": "Benjamin_Exam (Q83)",
@@ -6048,7 +6032,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: It promotes clarity and rational decisions\n• Concept Summary: In the study of logic and philosophy, 'It promotes clarity and rational decisions' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 378
+    "id": 377
   },
   {
     "source": "Benjamin_Exam (Q84)",
@@ -6064,7 +6048,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Creative thinking generates ideas, critical thinking evaluates them\n• Concept Summary: In the study of logic and philosophy, 'Creative thinking generates ideas, critical thinking evaluates them' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 379
+    "id": 378
   },
   {
     "source": "Benjamin_Exam (Q85)",
@@ -6080,7 +6064,7 @@ const GST_QUESTIONS = [
     "topic": "Metaphysics & Human Existence",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Metaphysics & Human Existence):\n• Correct Answer: Helping individuals reflect on the meaning of life\n• Concept Summary: In the study of logic and philosophy, 'Helping individuals reflect on the meaning of life' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Metaphysics & Human Existence ensures solid grasp of this foundational concept.",
-    "id": 380
+    "id": 379
   },
   {
     "source": "Benjamin_Exam (Q86)",
@@ -6096,7 +6080,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: It provides ethical and rational foundations for governance\n• Concept Summary: In the study of logic and philosophy, 'It provides ethical and rational foundations for governance' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 381
+    "id": 380
   },
   {
     "source": "Benjamin_Exam (Q87)",
@@ -6112,7 +6096,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: The Republic\n• Concept Summary: In the study of logic and philosophy, 'The Republic' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 382
+    "id": 381
   },
   {
     "source": "Benjamin_Exam (Q88)",
@@ -6128,7 +6112,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: A political animal\n• Concept Summary: In the study of logic and philosophy, 'A political animal' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 383
+    "id": 382
   },
   {
     "source": "Benjamin_Exam (Q89)",
@@ -6144,7 +6128,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Establishing rational moral principles\n• Concept Summary: In the study of logic and philosophy, 'Establishing rational moral principles' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 384
+    "id": 383
   },
   {
     "source": "Benjamin_Exam (Q90)",
@@ -6160,7 +6144,7 @@ const GST_QUESTIONS = [
     "topic": "Ethics, Morality & Human Conduct",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Ethics, Morality & Human Conduct):\n• Correct Answer: What is right or wrong in human conduct\n• Concept Summary: In the study of logic and philosophy, 'What is right or wrong in human conduct' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Ethics, Morality & Human Conduct ensures solid grasp of this foundational concept.",
-    "id": 385
+    "id": 384
   },
   {
     "source": "Benjamin_Exam (Q91)",
@@ -6176,7 +6160,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Both seeking truth about ultimate reality\n• Concept Summary: In the study of logic and philosophy, 'Both seeking truth about ultimate reality' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 386
+    "id": 385
   },
   {
     "source": "Benjamin_Exam (Q92)",
@@ -6192,7 +6176,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Reason\n• Concept Summary: In the study of logic and philosophy, 'Reason' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 387
+    "id": 386
   },
   {
     "source": "Benjamin_Exam (Q93)",
@@ -6208,7 +6192,7 @@ const GST_QUESTIONS = [
     "topic": "Metaphysics & Human Existence",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Metaphysics & Human Existence):\n• Correct Answer: Thomas Aquinas\n• Concept Summary: In the study of logic and philosophy, 'Thomas Aquinas' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Metaphysics & Human Existence ensures solid grasp of this foundational concept.",
-    "id": 388
+    "id": 387
   },
   {
     "source": "Benjamin_Exam (Q94)",
@@ -6224,7 +6208,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Providing rational justification for moral standards\n• Concept Summary: In the study of logic and philosophy, 'Providing rational justification for moral standards' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 389
+    "id": 388
   },
   {
     "source": "Benjamin_Exam (Q95)",
@@ -6240,7 +6224,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Axiology (Theory of Values):\n• Etymology: Derived from Greek 'axios' (worth/value) and 'logos' (study of).\n• Core Divisions:\n  1. Ethics: The study of moral values, good vs. bad, and principles guiding human conduct.\n  2. Aesthetics: The philosophical study of beauty, art, taste, and sensory evaluation.",
-    "id": 390
+    "id": 389
   },
   {
     "source": "Benjamin_Exam (Q96)",
@@ -6256,7 +6240,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Encouraging critical reflection on personal conduct\n• Concept Summary: In the study of logic and philosophy, 'Encouraging critical reflection on personal conduct' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 391
+    "id": 390
   },
   {
     "source": "Benjamin_Exam (Q97)",
@@ -6272,7 +6256,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Provides wisdom, ethics, and rational judgment\n• Concept Summary: In the study of logic and philosophy, 'Provides wisdom, ethics, and rational judgment' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 392
+    "id": 391
   },
   {
     "source": "Benjamin_Exam (Q98)",
@@ -6288,7 +6272,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Sharpens reasoning and problem-solving skills\n• Concept Summary: In the study of logic and philosophy, 'Sharpens reasoning and problem-solving skills' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 393
+    "id": 392
   },
   {
     "source": "Benjamin_Exam (Q99)",
@@ -6304,7 +6288,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Philosophy provides the principles that guide education\n• Concept Summary: In the study of logic and philosophy, 'Philosophy provides the principles that guide education' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 394
+    "id": 393
   },
   {
     "source": "Benjamin_Exam (Q100)",
@@ -6320,7 +6304,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Nature of Philosophy):\n• Correct Answer: Help individuals live rational, ethical, and meaningful lives\n• Concept Summary: In the study of logic and philosophy, 'Help individuals live rational, ethical, and meaningful lives' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Nature of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 395
+    "id": 394
   },
   {
     "source": "Study_59 (Q1)",
@@ -6336,7 +6320,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Critical thinking and fundamental questions\n• Concept Summary: In the study of logic and philosophy, 'Critical thinking and fundamental questions' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 396
+    "id": 395
   },
   {
     "source": "Study_59 (Q3)",
@@ -6352,7 +6336,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Love of wisdom\n• Concept Summary: In the study of logic and philosophy, 'Love of wisdom' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 397
+    "id": 396
   },
   {
     "source": "Study_59 (Q4)",
@@ -6368,7 +6352,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "Epistemology (Theory of Knowledge):\n• Definition: The core branch of philosophy concerned with the nature, origin, scope, acquisition, and limits of knowledge.\n• Major Inquiries: 'What is knowledge?' (traditionally analyzed as Justified True Belief), 'How do we know what we know?', and 'What is the distinction between mere belief and proven truth?'\n• Key Epistemic Schools: Rationalism (reason/intellect as primary source) vs. Empiricism (sensory perception as primary source).",
-    "id": 398
+    "id": 397
   },
   {
     "source": "Study_59 (Q5)",
@@ -6384,7 +6368,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Moral principles\n• Concept Summary: In the study of logic and philosophy, 'Moral principles' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 399
+    "id": 398
   },
   {
     "source": "Study_59 (Q6)",
@@ -6400,7 +6384,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "Metaphysics (Study of Reality and Being):\n• Scope: The foundational branch of philosophy that investigates the nature of ultimate reality, existence, and the universe.\n• Key Sub-fields: Ontology (the study of being and what entities fundamentally exist), Cosmology (the origin and order of the cosmos), and the Mind-Body Problem.\n• Focus Areas: Explores questions beyond empirical physics, such as identity, time, space, causality, and determinism vs. free will.",
-    "id": 400
+    "id": 399
   },
   {
     "source": "Study_59 (Q7)",
@@ -6416,7 +6400,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Valid Arguments",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Valid Arguments):\n• Correct Answer: Evaluate arguments for validity\n• Concept Summary: In the study of logic and philosophy, 'Evaluate arguments for validity' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Valid Arguments ensures solid grasp of this foundational concept.",
-    "id": 401
+    "id": 400
   },
   {
     "source": "Study_59 (Q8)",
@@ -6432,7 +6416,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Valid Arguments",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Valid Arguments):\n• Correct Answer: Two premises and a conclusion\n• Concept Summary: In the study of logic and philosophy, 'Two premises and a conclusion' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Valid Arguments ensures solid grasp of this foundational concept.",
-    "id": 402
+    "id": 401
   },
   {
     "source": "Study_59 (Q9)",
@@ -6448,7 +6432,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Valid Arguments",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Rule of Inference - Modus Ponens (Affirming the Antecedent):\n• Form: If P then Q; P; Therefore Q (P → Q, P ⊢ Q).\n• Principle: When a conditional statement is accepted and its antecedent (condition) is affirmed as true, the consequent (result) necessarily follows.\n• Note: Do not confuse with the formal fallacy of 'Affirming the Consequent' (If P then Q; Q; Therefore P — which is invalid).",
-    "id": 403
+    "id": 402
   },
   {
     "source": "Study_59 (Q10)",
@@ -6464,7 +6448,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Valid Arguments",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Valid Arguments):\n• Correct Answer: The premises guarantee the conclusion\n• Concept Summary: In the study of logic and philosophy, 'The premises guarantee the conclusion' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Valid Arguments ensures solid grasp of this foundational concept.",
-    "id": 404
+    "id": 403
   },
   {
     "source": "Study_59 (Q11)",
@@ -6480,7 +6464,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Valid Arguments",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Valid Arguments):\n• Correct Answer: Fails to guarantee the conclusion\n• Concept Summary: In the study of logic and philosophy, 'Fails to guarantee the conclusion' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Valid Arguments ensures solid grasp of this foundational concept.",
-    "id": 405
+    "id": 404
   },
   {
     "source": "Study_59 (Q12)",
@@ -6496,7 +6480,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Valid Arguments",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Valid Arguments):\n• Correct Answer: All men are mortal. Socrates is a man. Therefore, Socrates is mortal.\n• Concept Summary: In the study of logic and philosophy, 'All men are mortal. Socrates is a man. Therefore, Socrates is mortal.' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Valid Arguments ensures solid grasp of this foundational concept.",
-    "id": 406
+    "id": 405
   },
   {
     "source": "Study_59 (Q13)",
@@ -6512,7 +6496,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Informal Fallacy - Argumentum Ad Hominem (Appeal to the Person):\n• Definition: Attacking the person's character, motives, background, or physical traits rather than addressing the substance of their argument.\n• Varieties: Abusive (direct insult), Circumstantial (pointing to vested interest), and Tu Quoque ('you too' / hypocrisy accusation).",
-    "id": 407
+    "id": 406
   },
   {
     "source": "Study_59 (Q14)",
@@ -6528,7 +6512,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Informal Fallacy - Straw Man:\n• Definition: Distorting, exaggerating, or misrepresenting an opponent's actual argument to create a weaker, easily attackable target.\n• Key Indicator: The attacker refutes the distorted caricature and pretends to have defeated the original argument.",
-    "id": 408
+    "id": 407
   },
   {
     "source": "Study_59 (Q15)",
@@ -6544,7 +6528,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Informal Fallacy - Argumentum Ad Hominem (Appeal to the Person):\n• Definition: Attacking the person's character, motives, background, or physical traits rather than addressing the substance of their argument.\n• Varieties: Abusive (direct insult), Circumstantial (pointing to vested interest), and Tu Quoque ('you too' / hypocrisy accusation).",
-    "id": 409
+    "id": 408
   },
   {
     "source": "Study_59 (Q17)",
@@ -6560,7 +6544,7 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Second Law of Thought - Law of Non-Contradiction:\n• Formulation: ~(A ∧ ~A) ('A statement cannot be both true and false simultaneously in the same respect').\n• Logical Meaning: Contradictory assertions cannot co-exist; if a proposition is true, its exact denial must be false.\n• Role: Preserves rational coherence; from a contradiction, anything could otherwise be erroneously deduced (Principle of Explosion).",
-    "id": 410
+    "id": 409
   },
   {
     "source": "Study_59 (Q19)",
@@ -6576,7 +6560,7 @@ const GST_QUESTIONS = [
     "topic": "Deduction, Induction & Critical Thinking",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 411
+    "id": 410
   },
   {
     "source": "Study_59 (Q20)",
@@ -6592,7 +6576,7 @@ const GST_QUESTIONS = [
     "topic": "Deduction, Induction & Critical Thinking",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Inductive Reasoning & Empirical Generalization:\n• Core Nature: Moves from specific empirical observations/instances to broader general probabilities.\n• Strength & Cogency: Inductive arguments do not claim strict certainty; they are rated as 'Strong' or 'Weak' based on probability, and 'Cogent' when strong with true premises.",
-    "id": 412
+    "id": 411
   },
   {
     "source": "Study_59 (Q21)",
@@ -6608,7 +6592,7 @@ const GST_QUESTIONS = [
     "topic": "Deduction, Induction & Critical Thinking",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 413
+    "id": 412
   },
   {
     "source": "Study_59 (Q22)",
@@ -6624,7 +6608,7 @@ const GST_QUESTIONS = [
     "topic": "Deduction, Induction & Critical Thinking",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Deduction, Induction & Critical Thinking):\n• Correct Answer: Analyzing arguments for soundness\n• Concept Summary: In the study of logic and philosophy, 'Analyzing arguments for soundness' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Deduction, Induction & Critical Thinking ensures solid grasp of this foundational concept.",
-    "id": 414
+    "id": 413
   },
   {
     "source": "Study_59 (Q23)",
@@ -6640,7 +6624,7 @@ const GST_QUESTIONS = [
     "topic": "Deduction, Induction & Critical Thinking",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Deduction, Induction & Critical Thinking):\n• Correct Answer: Generating new ideas and solutions\n• Concept Summary: In the study of logic and philosophy, 'Generating new ideas and solutions' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Deduction, Induction & Critical Thinking ensures solid grasp of this foundational concept.",
-    "id": 415
+    "id": 414
   },
   {
     "source": "Study_59 (Q24)",
@@ -6656,7 +6640,7 @@ const GST_QUESTIONS = [
     "topic": "Deduction, Induction & Critical Thinking",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Deduction, Induction & Critical Thinking):\n• Correct Answer: Critical thinking evaluates, while creative thinking generates\n• Concept Summary: In the study of logic and philosophy, 'Critical thinking evaluates, while creative thinking generates' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Deduction, Induction & Critical Thinking ensures solid grasp of this foundational concept.",
-    "id": 416
+    "id": 415
   },
   {
     "source": "Study_59 (Q25)",
@@ -6672,7 +6656,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Existence & Applied Logic",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Existence & Applied Logic):\n• Correct Answer: Encouraging reflective and meaningful living\n• Concept Summary: In the study of logic and philosophy, 'Encouraging reflective and meaningful living' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Existence & Applied Logic ensures solid grasp of this foundational concept.",
-    "id": 417
+    "id": 416
   },
   {
     "source": "Study_59 (Q26)",
@@ -6688,7 +6672,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Existence & Applied Logic",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Existence & Applied Logic):\n• Correct Answer: Examining concepts like justice and power\n• Concept Summary: In the study of logic and philosophy, 'Examining concepts like justice and power' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Existence & Applied Logic ensures solid grasp of this foundational concept.",
-    "id": 418
+    "id": 417
   },
   {
     "source": "Study_59 (Q27)",
@@ -6704,7 +6688,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Existence & Applied Logic",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Existence & Applied Logic):\n• Correct Answer: Encouraging ethical reflection\n• Concept Summary: In the study of logic and philosophy, 'Encouraging ethical reflection' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Existence & Applied Logic ensures solid grasp of this foundational concept.",
-    "id": 419
+    "id": 418
   },
   {
     "source": "Study_59 (Q28)",
@@ -6720,7 +6704,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Existence & Applied Logic",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Existence & Applied Logic):\n• Correct Answer: Identify weak arguments\n• Concept Summary: In the study of logic and philosophy, 'Identify weak arguments' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Existence & Applied Logic ensures solid grasp of this foundational concept.",
-    "id": 420
+    "id": 419
   },
   {
     "source": "Study_59 (Q29)",
@@ -6736,7 +6720,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Existence & Applied Logic",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Existence & Applied Logic):\n• Correct Answer: Make well-reasoned choices\n• Concept Summary: In the study of logic and philosophy, 'Make well-reasoned choices' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Existence & Applied Logic ensures solid grasp of this foundational concept.",
-    "id": 421
+    "id": 420
   },
   {
     "source": "Study_59 (Q30)",
@@ -6752,7 +6736,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Existence & Applied Logic",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Existence & Applied Logic):\n• Correct Answer: Encouraging self-reflection and ethical behavior\n• Concept Summary: In the study of logic and philosophy, 'Encouraging self-reflection and ethical behavior' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Existence & Applied Logic ensures solid grasp of this foundational concept.",
-    "id": 422
+    "id": 421
   },
   {
     "source": "Study_59 (Q31)",
@@ -6768,7 +6752,7 @@ const GST_QUESTIONS = [
     "topic": "Symbolic Logic & Rules of Inference",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Symbolic Logic & Rules of Inference):\n• Correct Answer: Implication\n• Concept Summary: In the study of logic and philosophy, 'Implication' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Symbolic Logic & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 423
+    "id": 422
   },
   {
     "source": "Study_59 (Q32)",
@@ -6784,7 +6768,7 @@ const GST_QUESTIONS = [
     "topic": "Symbolic Logic & Rules of Inference",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Rule of Inference - Modus Ponens (Affirming the Antecedent):\n• Form: If P then Q; P; Therefore Q (P → Q, P ⊢ Q).\n• Principle: When a conditional statement is accepted and its antecedent (condition) is affirmed as true, the consequent (result) necessarily follows.\n• Note: Do not confuse with the formal fallacy of 'Affirming the Consequent' (If P then Q; Q; Therefore P — which is invalid).",
-    "id": 424
+    "id": 423
   },
   {
     "source": "Study_59 (Q33)",
@@ -6800,7 +6784,7 @@ const GST_QUESTIONS = [
     "topic": "Symbolic Logic & Rules of Inference",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Symbolic Logic & Rules of Inference):\n• Correct Answer: Red Herring\n• Concept Summary: In the study of logic and philosophy, 'Red Herring' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Symbolic Logic & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 425
+    "id": 424
   },
   {
     "source": "Study_59 (Q34)",
@@ -6816,7 +6800,7 @@ const GST_QUESTIONS = [
     "topic": "Symbolic Logic & Rules of Inference",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Symbolic Logic & Rules of Inference):\n• Correct Answer: Concepts like God, faith, and religious experience\n• Concept Summary: In the study of logic and philosophy, 'Concepts like God, faith, and religious experience' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Symbolic Logic & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 426
+    "id": 425
   },
   {
     "source": "Study_59 (Q35)",
@@ -6832,7 +6816,7 @@ const GST_QUESTIONS = [
     "topic": "Symbolic Logic & Rules of Inference",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "GST 212 Concept Explainer (Symbolic Logic & Rules of Inference):\n• Correct Answer: Emphasizes reason and critical inquiry\n• Concept Summary: In the study of logic and philosophy, 'Emphasizes reason and critical inquiry' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Symbolic Logic & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 427
+    "id": 426
   },
   {
     "source": "Study_59 (Q36)",
@@ -6848,7 +6832,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy and Religion",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy and Religion):\n• Correct Answer: The nature of evil\n• Concept Summary: In the study of logic and philosophy, 'The nature of evil' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy and Religion ensures solid grasp of this foundational concept.",
-    "id": 428
+    "id": 427
   },
   {
     "source": "Study_59 (Q37)",
@@ -6864,7 +6848,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy and Religion",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy and Religion):\n• Correct Answer: Encouraging rational and ethical evaluation\n• Concept Summary: In the study of logic and philosophy, 'Encouraging rational and ethical evaluation' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy and Religion ensures solid grasp of this foundational concept.",
-    "id": 429
+    "id": 428
   },
   {
     "source": "Study_59 (Q38)",
@@ -6880,7 +6864,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy and Religion",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy and Religion):\n• Correct Answer: Individual freedom and meaning\n• Concept Summary: In the study of logic and philosophy, 'Individual freedom and meaning' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy and Religion ensures solid grasp of this foundational concept.",
-    "id": 430
+    "id": 429
   },
   {
     "source": "Study_59 (Q39)",
@@ -6896,7 +6880,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy and Religion",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "Socratic Philosophy & Human Existence:\n• Key Principle: Socrates famously declared in Plato's Apology: 'The unexamined life is not worth living.'\n• Meaning: A truly authentic and meaningful human life requires constant critical reflection upon one's beliefs, values, virtues, and actions rather than living in passive acceptance of societal dogma.\n• Method: The Socratic Method (elenchus) employs probing dialogue and questioning to expose contradictions and attain deeper clarity.",
-    "id": 431
+    "id": 430
   },
   {
     "source": "Study_59 (Q40)",
@@ -6912,7 +6896,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy and Religion",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy and Religion):\n• Correct Answer: Encouraging self-awareness and ethical reasoning\n• Concept Summary: In the study of logic and philosophy, 'Encouraging self-awareness and ethical reasoning' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy and Religion ensures solid grasp of this foundational concept.",
-    "id": 432
+    "id": 431
   },
   {
     "source": "Study_59 (Q41)",
@@ -6928,7 +6912,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Conduct & Ethics",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Conduct & Ethics):\n• Correct Answer: Moral character and virtues\n• Concept Summary: In the study of logic and philosophy, 'Moral character and virtues' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Conduct & Ethics ensures solid grasp of this foundational concept.",
-    "id": 433
+    "id": 432
   },
   {
     "source": "Study_59 (Q42)",
@@ -6944,7 +6928,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Conduct & Ethics",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Conduct & Ethics):\n• Correct Answer: Aristotle\n• Concept Summary: In the study of logic and philosophy, 'Aristotle' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Conduct & Ethics ensures solid grasp of this foundational concept.",
-    "id": 434
+    "id": 433
   },
   {
     "source": "Study_59 (Q43)",
@@ -6960,7 +6944,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Conduct & Ethics",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Conduct & Ethics):\n• Correct Answer: Logic\n• Concept Summary: In the study of logic and philosophy, 'Logic' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Conduct & Ethics ensures solid grasp of this foundational concept.",
-    "id": 435
+    "id": 434
   },
   {
     "source": "Study_59 (Q44)",
@@ -6976,7 +6960,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Conduct & Ethics",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Conduct & Ethics):\n• Correct Answer: False dilemma\n• Concept Summary: In the study of logic and philosophy, 'False dilemma' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Conduct & Ethics ensures solid grasp of this foundational concept.",
-    "id": 436
+    "id": 435
   },
   {
     "source": "Study_59 (Q45)",
@@ -6992,7 +6976,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Conduct & Ethics",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Conduct & Ethics):\n• Correct Answer: Analytic truth\n• Concept Summary: In the study of logic and philosophy, 'Analytic truth' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Conduct & Ethics ensures solid grasp of this foundational concept.",
-    "id": 437
+    "id": 436
   },
   {
     "source": "Study_59 (Q46)",
@@ -7008,7 +6992,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Conduct & Ethics",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Conduct & Ethics):\n• Correct Answer: Valid and have true premises\n• Concept Summary: In the study of logic and philosophy, 'Valid and have true premises' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Conduct & Ethics ensures solid grasp of this foundational concept.",
-    "id": 438
+    "id": 437
   },
   {
     "source": "Study_59 (Q47)",
@@ -7024,7 +7008,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Conduct & Ethics",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Conduct & Ethics):\n• Correct Answer: Descartes\n• Concept Summary: In the study of logic and philosophy, 'Descartes' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Conduct & Ethics ensures solid grasp of this foundational concept.",
-    "id": 439
+    "id": 438
   },
   {
     "source": "Study_59 (Q48)",
@@ -7040,7 +7024,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Conduct & Ethics",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "Utilitarianism & Consequentialism:\n• Founded by: Jeremy Bentham and John Stuart Mill.\n• Principle of Utility: Actions are morally right in proportion as they tend to promote the greatest overall happiness/pleasure for the greatest number of people.",
-    "id": 440
+    "id": 439
   },
   {
     "source": "Study_59 (Q49)",
@@ -7056,7 +7040,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Conduct & Ethics",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Conduct & Ethics):\n• Correct Answer: John Rawls\n• Concept Summary: In the study of logic and philosophy, 'John Rawls' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Conduct & Ethics ensures solid grasp of this foundational concept.",
-    "id": 441
+    "id": 440
   },
   {
     "source": "Study_59 (Q50)",
@@ -7072,7 +7056,7 @@ const GST_QUESTIONS = [
     "topic": "Philosophy, Human Conduct & Ethics",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Philosophy, Human Conduct & Ethics):\n• Correct Answer: Skepticism and certainty\n• Concept Summary: In the study of logic and philosophy, 'Skepticism and certainty' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Philosophy, Human Conduct & Ethics ensures solid grasp of this foundational concept.",
-    "id": 442
+    "id": 441
   },
   {
     "source": "Study_59 (Q51)",
@@ -7088,7 +7072,7 @@ const GST_QUESTIONS = [
     "topic": "Comprehensive Review & Human Existence",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Comprehensive Review & Human Existence):\n• Correct Answer: Plato\n• Concept Summary: In the study of logic and philosophy, 'Plato' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Comprehensive Review & Human Existence ensures solid grasp of this foundational concept.",
-    "id": 443
+    "id": 442
   },
   {
     "source": "Study_59 (Q52)",
@@ -7104,7 +7088,7 @@ const GST_QUESTIONS = [
     "topic": "Comprehensive Review & Human Existence",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Comprehensive Review & Human Existence):\n• Correct Answer: Experience\n• Concept Summary: In the study of logic and philosophy, 'Experience' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Comprehensive Review & Human Existence ensures solid grasp of this foundational concept.",
-    "id": 444
+    "id": 443
   },
   {
     "source": "Study_59 (Q53)",
@@ -7120,7 +7104,7 @@ const GST_QUESTIONS = [
     "topic": "Comprehensive Review & Human Existence",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Comprehensive Review & Human Existence):\n• Correct Answer: Ad Populum\n• Concept Summary: In the study of logic and philosophy, 'Ad Populum' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Comprehensive Review & Human Existence ensures solid grasp of this foundational concept.",
-    "id": 445
+    "id": 444
   },
   {
     "source": "Study_59 (Q54)",
@@ -7136,7 +7120,7 @@ const GST_QUESTIONS = [
     "topic": "Comprehensive Review & Human Existence",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Comprehensive Review & Human Existence):\n• Correct Answer: Aesthetics\n• Concept Summary: In the study of logic and philosophy, 'Aesthetics' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Comprehensive Review & Human Existence ensures solid grasp of this foundational concept.",
-    "id": 446
+    "id": 445
   },
   {
     "source": "Study_59 (Q55)",
@@ -7152,7 +7136,7 @@ const GST_QUESTIONS = [
     "topic": "Comprehensive Review & Human Existence",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Comprehensive Review & Human Existence):\n• Correct Answer: Machiavellianism\n• Concept Summary: In the study of logic and philosophy, 'Machiavellianism' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Comprehensive Review & Human Existence ensures solid grasp of this foundational concept.",
-    "id": 447
+    "id": 446
   },
   {
     "source": "Study_59 (Q56)",
@@ -7168,7 +7152,7 @@ const GST_QUESTIONS = [
     "topic": "Comprehensive Review & Human Existence",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Comprehensive Review & Human Existence):\n• Correct Answer: Plato\n• Concept Summary: In the study of logic and philosophy, 'Plato' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Comprehensive Review & Human Existence ensures solid grasp of this foundational concept.",
-    "id": 448
+    "id": 447
   },
   {
     "source": "Study_59 (Q57)",
@@ -7184,7 +7168,7 @@ const GST_QUESTIONS = [
     "topic": "Comprehensive Review & Human Existence",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Comprehensive Review & Human Existence):\n• Correct Answer: Always true by logical form\n• Concept Summary: In the study of logic and philosophy, 'Always true by logical form' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Comprehensive Review & Human Existence ensures solid grasp of this foundational concept.",
-    "id": 449
+    "id": 448
   },
   {
     "source": "Study_59 (Q58)",
@@ -7200,7 +7184,7 @@ const GST_QUESTIONS = [
     "topic": "Comprehensive Review & Human Existence",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Comprehensive Review & Human Existence):\n• Correct Answer: Philosophy of religion\n• Concept Summary: In the study of logic and philosophy, 'Philosophy of religion' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Comprehensive Review & Human Existence ensures solid grasp of this foundational concept.",
-    "id": 450
+    "id": 449
   },
   {
     "source": "Study_59 (Q59)",
@@ -7216,7 +7200,7 @@ const GST_QUESTIONS = [
     "topic": "Comprehensive Review & Human Existence",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Comprehensive Review & Human Existence):\n• Correct Answer: Jean-Jacques Rousseau ---\n• Concept Summary: In the study of logic and philosophy, 'Jean-Jacques Rousseau ---' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Comprehensive Review & Human Existence ensures solid grasp of this foundational concept.",
-    "id": 451
+    "id": 450
   },
   {
     "source": "Past_Questions_PQ (Q1)",
@@ -7232,7 +7216,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Etymology of Philosophy:\n• Linguistic Roots: Coined from ancient Greek 'philein' (meaning 'to love') and 'sophia' (meaning 'wisdom') — literally 'the love of wisdom'.\n• Historical Origin: Pythagoras is traditionally credited with first calling himself a 'philosophos' (a lover of wisdom) rather than a 'sophos' (wise man).\n• Core Nature: Philosophy is not a closed body of dogmas but a continuous, critical quest for fundamental understanding regarding reality, knowledge, and moral existence.",
-    "id": 452
+    "id": 451
   },
   {
     "source": "Past_Questions_PQ (Q2)",
@@ -7248,7 +7232,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Astrology\n• Concept Summary: In the study of logic and philosophy, 'Astrology' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 453
+    "id": 452
   },
   {
     "source": "Past_Questions_PQ (Q3)",
@@ -7264,7 +7248,7 @@ const GST_QUESTIONS = [
     "topic": "Epistemology & Theories of Knowledge",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "Epistemology (Theory of Knowledge):\n• Definition: The core branch of philosophy concerned with the nature, origin, scope, acquisition, and limits of knowledge.\n• Major Inquiries: 'What is knowledge?' (traditionally analyzed as Justified True Belief), 'How do we know what we know?', and 'What is the distinction between mere belief and proven truth?'\n• Key Epistemic Schools: Rationalism (reason/intellect as primary source) vs. Empiricism (sensory perception as primary source).",
-    "id": 454
+    "id": 453
   },
   {
     "source": "Past_Questions_PQ (Q4)",
@@ -7280,7 +7264,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Wonder\n• Concept Summary: In the study of logic and philosophy, 'Wonder' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 455
+    "id": 454
   },
   {
     "source": "Past_Questions_PQ (Q5)",
@@ -7296,7 +7280,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Socratic Philosophy & Human Existence:\n• Key Principle: Socrates famously declared in Plato's Apology: 'The unexamined life is not worth living.'\n• Meaning: A truly authentic and meaningful human life requires constant critical reflection upon one's beliefs, values, virtues, and actions rather than living in passive acceptance of societal dogma.\n• Method: The Socratic Method (elenchus) employs probing dialogue and questioning to expose contradictions and attain deeper clarity.",
-    "id": 456
+    "id": 455
   },
   {
     "source": "Past_Questions_PQ (Q6)",
@@ -7312,7 +7296,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Right/correct reasoning\n• Concept Summary: In the study of logic and philosophy, 'Right/correct reasoning' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 457
+    "id": 456
   },
   {
     "source": "Past_Questions_PQ (Q7)",
@@ -7328,7 +7312,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "First Law of Thought - Law of Identity:\n• Formulation: A = A ('Everything is identical to itself').\n• Logical Meaning: An entity, term, or proposition maintains its distinct meaning throughout a rational discourse without arbitrary shift.\n• Role: Ensures conceptual consistency and prevents ambiguity or equivocation.",
-    "id": 458
+    "id": 457
   },
   {
     "source": "Past_Questions_PQ (Q8)",
@@ -7344,7 +7328,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Inference\n• Concept Summary: In the study of logic and philosophy, 'Inference' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 459
+    "id": 458
   },
   {
     "source": "Past_Questions_PQ (Q9)",
@@ -7360,7 +7344,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Proposition\n• Concept Summary: In the study of logic and philosophy, 'Proposition' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 460
+    "id": 459
   },
   {
     "source": "Past_Questions_PQ (Q10)",
@@ -7376,7 +7360,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Logic is a tool used in philosophical inquiry\n• Concept Summary: In the study of logic and philosophy, 'Logic is a tool used in philosophical inquiry' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 461
+    "id": 460
   },
   {
     "source": "Past_Questions_PQ (Q11)",
@@ -7392,23 +7376,23 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Two premises and a conclusion\n• Concept Summary: In the study of logic and philosophy, 'Two premises and a conclusion' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 462
+    "id": 461
   },
   {
     "source": "Past_Questions_PQ (Q12)",
     "question": "in symbolic logic , the symbol \"~\" represent:",
     "options": {
-      "A": "And",
-      "B": "Or",
-      "C": "Not (Negation)",
-      "D": "If...then"
+      "A": "And (∧)",
+      "B": "Or (∨)",
+      "C": "Not / Negation (~)",
+      "D": "If...then (→)"
     },
     "correct_option": "C",
-    "answer_text": "Not (Negation)",
+    "answer_text": "Not / Negation (~)",
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
-    "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Not (Negation)\n• Concept Summary: In the study of logic and philosophy, 'Not (Negation)' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 463
+    "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Not / Negation (~)\n• Concept Summary: In the study of logic and philosophy, 'Not / Negation (~)' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
+    "id": 462
   },
   {
     "source": "Past_Questions_PQ (Q13)",
@@ -7424,7 +7408,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Rule of Inference - Modus Ponens (Affirming the Antecedent):\n• Form: If P then Q; P; Therefore Q (P → Q, P ⊢ Q).\n• Principle: When a conditional statement is accepted and its antecedent (condition) is affirmed as true, the consequent (result) necessarily follows.\n• Note: Do not confuse with the formal fallacy of 'Affirming the Consequent' (If P then Q; Q; Therefore P — which is invalid).",
-    "id": 464
+    "id": 463
   },
   {
     "source": "Past_Questions_PQ (Q14)",
@@ -7440,7 +7424,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Conjunction\n• Concept Summary: In the study of logic and philosophy, 'Conjunction' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 465
+    "id": 464
   },
   {
     "source": "Past_Questions_PQ (Q15)",
@@ -7456,7 +7440,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Middle term\n• Concept Summary: In the study of logic and philosophy, 'Middle term' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 466
+    "id": 465
   },
   {
     "source": "Past_Questions_PQ (Q16)",
@@ -7472,7 +7456,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Informal Fallacy - Argumentum Ad Hominem (Appeal to the Person):\n• Definition: Attacking the person's character, motives, background, or physical traits rather than addressing the substance of their argument.\n• Varieties: Abusive (direct insult), Circumstantial (pointing to vested interest), and Tu Quoque ('you too' / hypocrisy accusation).",
-    "id": 467
+    "id": 466
   },
   {
     "source": "Past_Questions_PQ (Q18)",
@@ -7488,7 +7472,7 @@ const GST_QUESTIONS = [
     "topic": "Epistemology & Theories of Knowledge",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 468
+    "id": 467
   },
   {
     "source": "Past_Questions_PQ (Q19)",
@@ -7504,7 +7488,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Informal Fallacy - Fallacy of Composition:\n• Definition: Wrongly inferring that because every constituent part or individual member of a whole has a certain property, the entire whole must also share that property.\n• Example: 'Every brick in this building is lightweight, therefore the entire building is lightweight.'\n• Distinction: Contrast with Division (assuming parts inherit properties of the whole).",
-    "id": 469
+    "id": 468
   },
   {
     "source": "Past_Questions_PQ (Q20)",
@@ -7520,7 +7504,7 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "Third Law of Thought - Law of Excluded Middle:\n• Formulation: A ∨ ~A ('Either A or not-A; there is no third middle state').\n• Logical Meaning: Every declarative proposition must be either true or false in standard classical logic.\n• Role: Foundation for bivalent logic and indirect proofs (reductio ad absurdum).",
-    "id": 470
+    "id": 469
   },
   {
     "source": "Past_Questions_PQ (Q22)",
@@ -7536,7 +7520,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 471
+    "id": 470
   },
   {
     "source": "Past_Questions_PQ (Q23)",
@@ -7552,7 +7536,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Sound\n• Concept Summary: In the study of logic and philosophy, 'Sound' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 472
+    "id": 471
   },
   {
     "source": "Past_Questions_PQ (Q25), Past_Questions_PQ (Q42)",
@@ -7568,7 +7552,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Inductive Reasoning & Empirical Generalization:\n• Core Nature: Moves from specific empirical observations/instances to broader general probabilities.\n• Strength & Cogency: Inductive arguments do not claim strict certainty; they are rated as 'Strong' or 'Weak' based on probability, and 'Cogent' when strong with true premises.",
-    "id": 473
+    "id": 472
   },
   {
     "source": "Past_Questions_PQ (Q26)",
@@ -7584,7 +7568,7 @@ const GST_QUESTIONS = [
     "topic": "Critical Thinking & Cognitive Skills",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Critical Thinking & Cognitive Skills):\n• Correct Answer: Evaluating arguments and evidence systematically\n• Concept Summary: In the study of logic and philosophy, 'Evaluating arguments and evidence systematically' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Critical Thinking & Cognitive Skills ensures solid grasp of this foundational concept.",
-    "id": 474
+    "id": 473
   },
   {
     "source": "Past_Questions_PQ (Q27)",
@@ -7600,7 +7584,7 @@ const GST_QUESTIONS = [
     "topic": "Critical Thinking & Cognitive Skills",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Critical Thinking & Cognitive Skills):\n• Correct Answer: (generating novel and useful ideas)\n• Concept Summary: In the study of logic and philosophy, '(generating novel and useful ideas)' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Critical Thinking & Cognitive Skills ensures solid grasp of this foundational concept.",
-    "id": 475
+    "id": 474
   },
   {
     "source": "Past_Questions_PQ (Q28)",
@@ -7616,7 +7600,7 @@ const GST_QUESTIONS = [
     "topic": "Critical Thinking & Cognitive Skills",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Critical Thinking & Cognitive Skills):\n• Correct Answer: They compliment each other in problem-solving\n• Concept Summary: In the study of logic and philosophy, 'They compliment each other in problem-solving' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Critical Thinking & Cognitive Skills ensures solid grasp of this foundational concept.",
-    "id": 476
+    "id": 475
   },
   {
     "source": "Past_Questions_PQ (Q29)",
@@ -7632,7 +7616,7 @@ const GST_QUESTIONS = [
     "topic": "Critical Thinking & Cognitive Skills",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Critical Thinking & Cognitive Skills):\n• Correct Answer: Confirmation bias\n• Concept Summary: In the study of logic and philosophy, 'Confirmation bias' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Critical Thinking & Cognitive Skills ensures solid grasp of this foundational concept.",
-    "id": 477
+    "id": 476
   },
   {
     "source": "Past_Questions_PQ (Q30), Past_Questions_PQ (Q69)",
@@ -7648,7 +7632,7 @@ const GST_QUESTIONS = [
     "topic": "Critical Thinking & Cognitive Skills",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Critical Thinking & Cognitive Skills):\n• Correct Answer: Asking probing questions\n• Concept Summary: In the study of logic and philosophy, 'Asking probing questions' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Critical Thinking & Cognitive Skills ensures solid grasp of this foundational concept.",
-    "id": 478
+    "id": 477
   },
   {
     "source": "Past_Questions_PQ (Q31)",
@@ -7664,7 +7648,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Developing critical reasoning and reflective capacities\n• Concept Summary: In the study of logic and philosophy, 'Developing critical reasoning and reflective capacities' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 479
+    "id": 478
   },
   {
     "source": "Past_Questions_PQ (Q32)",
@@ -7680,7 +7664,7 @@ const GST_QUESTIONS = [
     "topic": "Ethics, Morality & Human Conduct",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Ethics, Morality & Human Conduct):\n• Correct Answer: Providing frameworks for evaluating right from wrong\n• Concept Summary: In the study of logic and philosophy, 'Providing frameworks for evaluating right from wrong' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Ethics, Morality & Human Conduct ensures solid grasp of this foundational concept.",
-    "id": 480
+    "id": 479
   },
   {
     "source": "Past_Questions_PQ (Q33)",
@@ -7696,7 +7680,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: By encouraging systematic exploration of different perpectives\n• Concept Summary: In the study of logic and philosophy, 'By encouraging systematic exploration of different perpectives' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 481
+    "id": 480
   },
   {
     "source": "Past_Questions_PQ (Q34)",
@@ -7712,7 +7696,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Cultivating intellectual virtues like wisdom and justice\n• Concept Summary: In the study of logic and philosophy, 'Cultivating intellectual virtues like wisdom and justice' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 482
+    "id": 481
   },
   {
     "source": "Past_Questions_PQ (Q35)",
@@ -7728,7 +7712,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: By fostering critical examination of power , justice and rights\n• Concept Summary: In the study of logic and philosophy, 'By fostering critical examination of power , justice and rights' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 483
+    "id": 482
   },
   {
     "source": "Past_Questions_PQ (Q36)",
@@ -7744,7 +7728,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Philosophy provides critical tools for evaluating pollical ideas and institutions\n• Concept Summary: In the study of logic and philosophy, 'Philosophy provides critical tools for evaluating pollical ideas and institutions' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 484
+    "id": 483
   },
   {
     "source": "Past_Questions_PQ (Q37)",
@@ -7760,7 +7744,7 @@ const GST_QUESTIONS = [
     "topic": "Ethics, Morality & Human Conduct",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Ethics, Morality & Human Conduct):\n• Correct Answer: Reflective examination of values and principles guiding action\n• Concept Summary: In the study of logic and philosophy, 'Reflective examination of values and principles guiding action' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Ethics, Morality & Human Conduct ensures solid grasp of this foundational concept.",
-    "id": 485
+    "id": 484
   },
   {
     "source": "Past_Questions_PQ (Q38)",
@@ -7776,7 +7760,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: By critically examining religious concepts, claims and practices\n• Concept Summary: In the study of logic and philosophy, 'By critically examining religious concepts, claims and practices' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 486
+    "id": 485
   },
   {
     "source": "Past_Questions_PQ (Q39)",
@@ -7792,7 +7776,7 @@ const GST_QUESTIONS = [
     "topic": "Ethics, Morality & Human Conduct",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Ethics, Morality & Human Conduct):\n• Correct Answer: Analyzing the nature , sources, and justification of values\n• Concept Summary: In the study of logic and philosophy, 'Analyzing the nature , sources, and justification of values' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Ethics, Morality & Human Conduct ensures solid grasp of this foundational concept.",
-    "id": 487
+    "id": 486
   },
   {
     "source": "Past_Questions_PQ (Q40)",
@@ -7808,7 +7792,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Development of practical wisdom and moral reasoning\n• Concept Summary: In the study of logic and philosophy, 'Development of practical wisdom and moral reasoning' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 488
+    "id": 487
   },
   {
     "source": "Past_Questions_PQ (Q41)",
@@ -7824,7 +7808,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Etymology of Philosophy:\n• Linguistic Roots: Coined from ancient Greek 'philein' (meaning 'to love') and 'sophia' (meaning 'wisdom') — literally 'the love of wisdom'.\n• Historical Origin: Pythagoras is traditionally credited with first calling himself a 'philosophos' (a lover of wisdom) rather than a 'sophos' (wise man).\n• Core Nature: Philosophy is not a closed body of dogmas but a continuous, critical quest for fundamental understanding regarding reality, knowledge, and moral existence.",
-    "id": 489
+    "id": 488
   },
   {
     "source": "Past_Questions_PQ (Q43)",
@@ -7840,7 +7824,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Etymology of Philosophy:\n• Linguistic Roots: Coined from ancient Greek 'philein' (meaning 'to love') and 'sophia' (meaning 'wisdom') — literally 'the love of wisdom'.\n• Historical Origin: Pythagoras is traditionally credited with first calling himself a 'philosophos' (a lover of wisdom) rather than a 'sophos' (wise man).\n• Core Nature: Philosophy is not a closed body of dogmas but a continuous, critical quest for fundamental understanding regarding reality, knowledge, and moral existence.",
-    "id": 490
+    "id": 489
   },
   {
     "source": "Past_Questions_PQ (Q44)",
@@ -7856,7 +7840,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Philosophy is the \"mother of sciences\" from which many disciplines originated\n• Concept Summary: In the study of logic and philosophy, 'Philosophy is the \"mother of sciences\" from which many disciplines originated' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 491
+    "id": 490
   },
   {
     "source": "Past_Questions_PQ (Q45)",
@@ -7872,7 +7856,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Aesthetics\n• Concept Summary: In the study of logic and philosophy, 'Aesthetics' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 492
+    "id": 491
   },
   {
     "source": "Past_Questions_PQ (Q46)",
@@ -7888,7 +7872,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Philosophy seeks truth through rational inquiry while religion often accepts revealed truth\n• Concept Summary: In the study of logic and philosophy, 'Philosophy seeks truth through rational inquiry while religion often accepts revealed truth' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 493
+    "id": 492
   },
   {
     "source": "Past_Questions_PQ (Q47)",
@@ -7904,7 +7888,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Metaphysics (Study of Reality and Being):\n• Scope: The foundational branch of philosophy that investigates the nature of ultimate reality, existence, and the universe.\n• Key Sub-fields: Ontology (the study of being and what entities fundamentally exist), Cosmology (the origin and order of the cosmos), and the Mind-Body Problem.\n• Focus Areas: Explores questions beyond empirical physics, such as identity, time, space, causality, and determinism vs. free will.",
-    "id": 494
+    "id": 493
   },
   {
     "source": "Past_Questions_PQ (Q48)",
@@ -7920,7 +7904,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Categorical Propositions Structure (A, E, I, O):\n• A: Universal Affirmative ('All S are P') — Subject distributed, Predicate undistributed.\n• E: Universal Negative ('No S are P') — Both Subject and Predicate distributed.\n• I: Particular Affirmative ('Some S are P') — Both Subject and Predicate undistributed.\n• O: Particular Negative ('Some S are not P') — Subject undistributed, Predicate distributed.\n• Latin Mnemonic: Vowels from AffIrmo (A=Universal, I=Particular) and nEgO (E=Universal, O=Particular).",
-    "id": 495
+    "id": 494
   },
   {
     "source": "Past_Questions_PQ (Q49)",
@@ -7936,11 +7920,11 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Second Law of Thought - Law of Non-Contradiction:\n• Formulation: ~(A ∧ ~A) ('A statement cannot be both true and false simultaneously in the same respect').\n• Logical Meaning: Contradictory assertions cannot co-exist; if a proposition is true, its exact denial must be false.\n• Role: Preserves rational coherence; from a contradiction, anything could otherwise be erroneously deduced (Principle of Explosion).",
-    "id": 496
+    "id": 495
   },
   {
     "source": "Past_Questions_PQ (Q50)",
-    "question": "in symbolic logic , the expression \"P -> Q \" represent:",
+    "question": "in symbolic logic , the expression \"P ⊃ Q \" represent:",
     "options": {
       "A": "If p then q",
       "B": "Alternative view in Logic,",
@@ -7952,7 +7936,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: If p then q\n• Concept Summary: In the study of logic and philosophy, 'If p then q' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 497
+    "id": 496
   },
   {
     "source": "Past_Questions_PQ (Q51)",
@@ -7968,7 +7952,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Inference\n• Concept Summary: In the study of logic and philosophy, 'Inference' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 498
+    "id": 497
   },
   {
     "source": "Past_Questions_PQ (Q52)",
@@ -7984,7 +7968,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 499
+    "id": 498
   },
   {
     "source": "Past_Questions_PQ (Q53)",
@@ -8000,7 +7984,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: The predicate of the conclusion\n• Concept Summary: In the study of logic and philosophy, 'The predicate of the conclusion' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 500
+    "id": 499
   },
   {
     "source": "Past_Questions_PQ (Q54)",
@@ -8016,27 +8000,27 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Rule of Inference - Modus Tollens (Denying the Consequent):\n• Form: If P then Q; Not Q; Therefore Not P (P → Q, ~Q ⊢ ~P).\n• Principle: If a conditional statement holds true but the consequent is denied/false, the antecedent must also be false.\n• Note: Do not confuse with the formal fallacy of 'Denying the Antecedent' (If P then Q; Not P; Therefore Not Q — which is invalid).",
-    "id": 501
+    "id": 500
   },
   {
     "source": "Past_Questions_PQ (Q55)",
     "question": "in symbolic logic the expression \"¬(P . Q)\" is logically equivalent to:",
     "options": {
-      "A": "¬p v ¬q",
+      "A": "¬p ∨ ¬q",
       "B": "Alternative view in Logic,",
       "C": "Unrelated speculative claim",
       "D": "None of the above"
     },
     "correct_option": "A",
-    "answer_text": "¬p v ¬q",
+    "answer_text": "¬p ∨ ¬q",
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
-    "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: ¬p v ¬q\n• Concept Summary: In the study of logic and philosophy, '¬p v ¬q' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 502
+    "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: ¬p ∨ ¬q\n• Concept Summary: In the study of logic and philosophy, '¬p ∨ ¬q' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
+    "id": 501
   },
   {
     "source": "Past_Questions_PQ (Q56)",
-    "question": "which rule allows you to infer \"P v Q\" from the single premise \"P\":",
+    "question": "which rule allows you to infer \"P ∨ Q\" from the single premise \"P\":",
     "options": {
       "A": "Addition",
       "B": "Alternative view in Introduction",
@@ -8048,7 +8032,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Addition\n• Concept Summary: In the study of logic and philosophy, 'Addition' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 503
+    "id": 502
   },
   {
     "source": "Past_Questions_PQ (Q57)",
@@ -8064,7 +8048,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Middle term\n• Concept Summary: In the study of logic and philosophy, 'Middle term' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 504
+    "id": 503
   },
   {
     "source": "Past_Questions_PQ (Q58)",
@@ -8080,7 +8064,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "Informal Fallacy - Petitio Principii (Begging the Question / Circular Reasoning):\n• Definition: An argument in which the premises explicitly or implicitly assume the truth of the conclusion they are supposed to prove.\n• Result: The argument provides zero genuine external evidence; it merely restates the claim in different words.",
-    "id": 505
+    "id": 504
   },
   {
     "source": "Past_Questions_PQ (Q59)",
@@ -8096,7 +8080,7 @@ const GST_QUESTIONS = [
     "topic": "Classical Laws of Thought",
     "module": "Symbolic Logic & Classical Laws of Thought",
     "explainer": "First Law of Thought - Law of Identity:\n• Formulation: A = A ('Everything is identical to itself').\n• Logical Meaning: An entity, term, or proposition maintains its distinct meaning throughout a rational discourse without arbitrary shift.\n• Role: Ensures conceptual consistency and prevents ambiguity or equivocation.",
-    "id": 506
+    "id": 505
   },
   {
     "source": "Past_Questions_PQ (Q60)",
@@ -8112,7 +8096,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Ad misericordiam\n• Concept Summary: In the study of logic and philosophy, 'Ad misericordiam' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 507
+    "id": 506
   },
   {
     "source": "Past_Questions_PQ (Q61)",
@@ -8128,7 +8112,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: The logical relationship between premises and conclusion\n• Concept Summary: In the study of logic and philosophy, 'The logical relationship between premises and conclusion' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 508
+    "id": 507
   },
   {
     "source": "Past_Questions_PQ (Q62)",
@@ -8144,7 +8128,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: An argument with true premises and valid structure\n• Concept Summary: In the study of logic and philosophy, 'An argument with true premises and valid structure' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 509
+    "id": 508
   },
   {
     "source": "Past_Questions_PQ (Q63)",
@@ -8160,7 +8144,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Form concens structural validity , content concerns truth of premises\n• Concept Summary: In the study of logic and philosophy, 'Form concens structural validity , content concerns truth of premises' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 510
+    "id": 509
   },
   {
     "source": "Past_Questions_PQ (Q64)",
@@ -8176,7 +8160,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Inductive Reasoning & Empirical Generalization:\n• Core Nature: Moves from specific empirical observations/instances to broader general probabilities.\n• Strength & Cogency: Inductive arguments do not claim strict certainty; they are rated as 'Strong' or 'Weak' based on probability, and 'Cogent' when strong with true premises.",
-    "id": 511
+    "id": 510
   },
   {
     "source": "Past_Questions_PQ (Q65)",
@@ -8192,7 +8176,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Its conclution is factually correct\n• Concept Summary: In the study of logic and philosophy, 'Its conclution is factually correct' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 512
+    "id": 511
   },
   {
     "source": "Past_Questions_PQ (Q66)",
@@ -8208,7 +8192,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Categorical syllogism (barbara form)\n• Concept Summary: In the study of logic and philosophy, 'Categorical syllogism (barbara form)' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 513
+    "id": 512
   },
   {
     "source": "Past_Questions_PQ (Q67)",
@@ -8224,7 +8208,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 514
+    "id": 513
   },
   {
     "source": "Past_Questions_PQ (Q68)",
@@ -8240,7 +8224,7 @@ const GST_QUESTIONS = [
     "topic": "Critical Thinking & Cognitive Skills",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Critical Thinking & Cognitive Skills):\n• Correct Answer: Systematically evauating claims , evidence and reasoning\n• Concept Summary: In the study of logic and philosophy, 'Systematically evauating claims , evidence and reasoning' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Critical Thinking & Cognitive Skills ensures solid grasp of this foundational concept.",
-    "id": 515
+    "id": 514
   },
   {
     "source": "Past_Questions_PQ (Q70)",
@@ -8256,7 +8240,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Cultivating habits of reflective questioning and reasoned judgement\n• Concept Summary: In the study of logic and philosophy, 'Cultivating habits of reflective questioning and reasoned judgement' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 516
+    "id": 515
   },
   {
     "source": "Past_Questions_PQ (Q71)",
@@ -8272,7 +8256,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Individuals define themselves through choices and actions\n• Concept Summary: In the study of logic and philosophy, 'Individuals define themselves through choices and actions' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 517
+    "id": 516
   },
   {
     "source": "Past_Questions_PQ (Q72)",
@@ -8288,7 +8272,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: By developing skills to evaluate political arguments and policies critically\n• Concept Summary: In the study of logic and philosophy, 'By developing skills to evaluate political arguments and policies critically' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 518
+    "id": 517
   },
   {
     "source": "Past_Questions_PQ (Q73)",
@@ -8304,7 +8288,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Help individual reflect on values and make reasoned life choices\n• Concept Summary: In the study of logic and philosophy, 'Help individual reflect on values and make reasoned life choices' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 519
+    "id": 518
   },
   {
     "source": "Past_Questions_PQ (Q74)",
@@ -8320,7 +8304,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: By encouraging systematic exploration and different perspectives and arguments\n• Concept Summary: In the study of logic and philosophy, 'By encouraging systematic exploration and different perspectives and arguments' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 520
+    "id": 519
   },
   {
     "source": "Past_Questions_PQ (Q75)",
@@ -8336,7 +8320,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Fundamental questions about justice, authority , rights and the good society\n• Concept Summary: In the study of logic and philosophy, 'Fundamental questions about justice, authority , rights and the good society' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 521
+    "id": 520
   },
   {
     "source": "Past_Questions_PQ (Q76)",
@@ -8352,7 +8336,7 @@ const GST_QUESTIONS = [
     "topic": "Ethics, Morality & Human Conduct",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "GST 212 Concept Explainer (Ethics, Morality & Human Conduct):\n• Correct Answer: Providing frameworks for analyzing moral dilemmas and principles\n• Concept Summary: In the study of logic and philosophy, 'Providing frameworks for analyzing moral dilemmas and principles' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Ethics, Morality & Human Conduct ensures solid grasp of this foundational concept.",
-    "id": 522
+    "id": 521
   },
   {
     "source": "Past_Questions_PQ (Q77)",
@@ -8368,7 +8352,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Cultivating practical wisdom and moral reasoninng abilities\n• Concept Summary: In the study of logic and philosophy, 'Cultivating practical wisdom and moral reasoninng abilities' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 523
+    "id": 522
   },
   {
     "source": "Past_Questions_PQ (Q78)",
@@ -8384,7 +8368,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Etymology of Philosophy:\n• Linguistic Roots: Coined from ancient Greek 'philein' (meaning 'to love') and 'sophia' (meaning 'wisdom') — literally 'the love of wisdom'.\n• Historical Origin: Pythagoras is traditionally credited with first calling himself a 'philosophos' (a lover of wisdom) rather than a 'sophos' (wise man).\n• Core Nature: Philosophy is not a closed body of dogmas but a continuous, critical quest for fundamental understanding regarding reality, knowledge, and moral existence.",
-    "id": 524
+    "id": 523
   },
   {
     "source": "Past_Questions_PQ (Q79)",
@@ -8400,7 +8384,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Etymology of Philosophy:\n• Linguistic Roots: Coined from ancient Greek 'philein' (meaning 'to love') and 'sophia' (meaning 'wisdom') — literally 'the love of wisdom'.\n• Historical Origin: Pythagoras is traditionally credited with first calling himself a 'philosophos' (a lover of wisdom) rather than a 'sophos' (wise man).\n• Core Nature: Philosophy is not a closed body of dogmas but a continuous, critical quest for fundamental understanding regarding reality, knowledge, and moral existence.",
-    "id": 525
+    "id": 524
   },
   {
     "source": "Past_Questions_PQ (Q80)",
@@ -8416,7 +8400,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Meta physics\n• Concept Summary: In the study of logic and philosophy, 'Meta physics' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 526
+    "id": 525
   },
   {
     "source": "Past_Questions_PQ (Q81)",
@@ -8432,7 +8416,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Philosophy relies on speculative reasoning rather than empirical observation\n• Concept Summary: In the study of logic and philosophy, 'Philosophy relies on speculative reasoning rather than empirical observation' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 527
+    "id": 526
   },
   {
     "source": "Past_Questions_PQ (Q82)",
@@ -8448,7 +8432,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Evaluate the validity of arguments and reasoning\n• Concept Summary: In the study of logic and philosophy, 'Evaluate the validity of arguments and reasoning' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 528
+    "id": 527
   },
   {
     "source": "Past_Questions_PQ (Q83)",
@@ -8464,7 +8448,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Identity\n• Concept Summary: In the study of logic and philosophy, 'Identity' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 529
+    "id": 528
   },
   {
     "source": "Past_Questions_PQ (Q84)",
@@ -8480,7 +8464,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: A declarative statement that is either true or false\n• Concept Summary: In the study of logic and philosophy, 'A declarative statement that is either true or false' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 530
+    "id": 529
   },
   {
     "source": "Past_Questions_PQ (Q85)",
@@ -8496,7 +8480,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: Conjunction\n• Concept Summary: In the study of logic and philosophy, 'Conjunction' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 531
+    "id": 530
   },
   {
     "source": "Past_Questions_PQ (Q87)",
@@ -8512,7 +8496,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Major term and minor term\n• Concept Summary: In the study of logic and philosophy, 'Major term and minor term' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 532
+    "id": 531
   },
   {
     "source": "Past_Questions_PQ (Q88)",
@@ -8528,7 +8512,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Rule of Inference - Modus Ponens (Affirming the Antecedent):\n• Form: If P then Q; P; Therefore Q (P → Q, P ⊢ Q).\n• Principle: When a conditional statement is accepted and its antecedent (condition) is affirmed as true, the consequent (result) necessarily follows.\n• Note: Do not confuse with the formal fallacy of 'Affirming the Consequent' (If P then Q; Q; Therefore P — which is invalid).",
-    "id": 533
+    "id": 532
   },
   {
     "source": "Past_Questions_PQ (Q89)",
@@ -8544,7 +8528,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Or\n• Concept Summary: In the study of logic and philosophy, 'Or' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 534
+    "id": 533
   },
   {
     "source": "Past_Questions_PQ (Q90)",
@@ -8560,7 +8544,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Addition\n• Concept Summary: In the study of logic and philosophy, 'Addition' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 535
+    "id": 534
   },
   {
     "source": "Past_Questions_PQ (Q91)",
@@ -8576,7 +8560,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Connecting the major and minor terms across premises\n• Concept Summary: In the study of logic and philosophy, 'Connecting the major and minor terms across premises' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 536
+    "id": 535
   },
   {
     "source": "Past_Questions_PQ (Q92)",
@@ -8592,7 +8576,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Ad populum\n• Concept Summary: In the study of logic and philosophy, 'Ad populum' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 537
+    "id": 536
   },
   {
     "source": "Past_Questions_PQ (Q93)",
@@ -8608,7 +8592,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Third Law of Thought - Law of Excluded Middle:\n• Formulation: A ∨ ~A ('Either A or not-A; there is no third middle state').\n• Logical Meaning: Every declarative proposition must be either true or false in standard classical logic.\n• Role: Foundation for bivalent logic and indirect proofs (reductio ad absurdum).",
-    "id": 538
+    "id": 537
   },
   {
     "source": "Past_Questions_PQ (Q94)",
@@ -8624,7 +8608,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Invalid regardless of truth\n• Concept Summary: In the study of logic and philosophy, 'Invalid regardless of truth' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 539
+    "id": 538
   },
   {
     "source": "Past_Questions_PQ (Q95)",
@@ -8640,7 +8624,7 @@ const GST_QUESTIONS = [
     "topic": "Fallacies (Formal & Informal)",
     "module": "Fallacies in Reasoning (Formal & Informal)",
     "explainer": "GST 212 Concept Explainer (Fallacies (Formal & Informal)):\n• Correct Answer: Post hoc ergo propter hoc\n• Concept Summary: In the study of logic and philosophy, 'Post hoc ergo propter hoc' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Fallacies (Formal & Informal) ensures solid grasp of this foundational concept.",
-    "id": 540
+    "id": 539
   },
   {
     "source": "Past_Questions_PQ (Q96)",
@@ -8656,7 +8640,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Inductive Reasoning & Empirical Generalization:\n• Core Nature: Moves from specific empirical observations/instances to broader general probabilities.\n• Strength & Cogency: Inductive arguments do not claim strict certainty; they are rated as 'Strong' or 'Weak' based on probability, and 'Cogent' when strong with true premises.",
-    "id": 541
+    "id": 540
   },
   {
     "source": "Past_Questions_PQ (Q97)",
@@ -8672,7 +8656,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Branches of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Introduction & Branches of Philosophy):\n• Correct Answer: The structural relationship between premises and conclusion\n• Concept Summary: In the study of logic and philosophy, 'The structural relationship between premises and conclusion' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Introduction & Branches of Philosophy ensures solid grasp of this foundational concept.",
-    "id": 542
+    "id": 541
   },
   {
     "source": "Past_Questions_PQ (Q98)",
@@ -8688,7 +8672,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "Deductive Reasoning & Validity:\n• Core Nature: Moves from general premises to a specific, necessary conclusion.\n• Validity: A structural property — if the premises are true, it is logically impossible for the conclusion to be false.\n• Soundness: A deductive argument is Sound if and only if it is structurally valid AND all its premises are factually true.",
-    "id": 543
+    "id": 542
   },
   {
     "source": "Past_Questions_PQ (Q99)",
@@ -8704,7 +8688,7 @@ const GST_QUESTIONS = [
     "topic": "Logic, Syllogisms & Rules of Inference",
     "module": "Categorical Syllogisms & Rules of Inference",
     "explainer": "GST 212 Concept Explainer (Logic, Syllogisms & Rules of Inference):\n• Correct Answer: Its from is invalid but content is true\n• Concept Summary: In the study of logic and philosophy, 'Its from is invalid but content is true' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Logic, Syllogisms & Rules of Inference ensures solid grasp of this foundational concept.",
-    "id": 544
+    "id": 543
   },
   {
     "source": "Past_Questions_PQ (Q100)",
@@ -8720,7 +8704,7 @@ const GST_QUESTIONS = [
     "topic": "Critical Thinking & Cognitive Skills",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "GST 212 Concept Explainer (Critical Thinking & Cognitive Skills):\n• Correct Answer: Analyze , evaluate , and synthesize information systematically\n• Concept Summary: In the study of logic and philosophy, 'Analyze , evaluate , and synthesize information systematically' accurately satisfies the criteria stated in the question. Reviewing the definitions and rules governing Critical Thinking & Cognitive Skills ensures solid grasp of this foundational concept.",
-    "id": 545
+    "id": 544
   },
   {
     "source": "Lecture_Notes_ITQ (Q1)",
@@ -8736,7 +8720,7 @@ const GST_QUESTIONS = [
     "topic": "Introduction & Nature of Philosophy",
     "module": "Introduction & Branches of Philosophy",
     "explainer": "Lecture Note ITQ 1 Explainer: Philosophy investigates reality, thought, knowledge, and conduct by critically analyzing fundamental concepts and general principles governing existence.",
-    "id": 546
+    "id": 545
   },
   {
     "source": "Lecture_Notes_ITQ (Q2)",
@@ -8752,7 +8736,7 @@ const GST_QUESTIONS = [
     "topic": "Epistemology & Theories of Knowledge",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "Lecture Note ITQ 2 Explainer: Knowledge in epistemology requires cognitive grasp, grounded in experience and rational justification, distinguishing it from mere opinion (doxa).",
-    "id": 547
+    "id": 546
   },
   {
     "source": "Lecture_Notes_ITQ (Q3)",
@@ -8768,7 +8752,7 @@ const GST_QUESTIONS = [
     "topic": "Metaphysics & Human Existence",
     "module": "Epistemology, Ethics & Human Existence",
     "explainer": "Lecture Note ITQ 3 Explainer: Existentialist thinkers (Sartre, Camus, Kierkegaard) emphasize that 'existence precedes essence' — individuals possess radical freedom and must construct their own purpose through authentic choices.",
-    "id": 548
+    "id": 547
   }
 ];
 
